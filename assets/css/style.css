@@ -1,4 +1,6 @@
 /* reset */
+@import url("../fonts/kharkivtone/stylesheet.css");
+@import url("../fonts/Montserrat/stylesheet.css");
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -71,3 +73,71 @@ h6 {
 }
 
 /*----------------*/
+body {
+  margin: 0;
+  font-family: "Montserrat";
+}
+
+h1 {
+  font-family: "Kharkiv Tone";
+  text-transform: uppercase;
+}
+
+header {
+  background: rgba(164, 164, 164, 0.8);
+  -webkit-backdrop-filter: blur(3.5px);
+          backdrop-filter: blur(3.5px);
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 128.4%;
+  color: #fff;
+}
+
+.container {
+  width: 1396px;
+  margin: 0 auto;
+}
+
+.header-menu {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 500px;
+  color: #000;
+  background-color: #fff;
+  height: 100vh;
+}
+
+.header__nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo {
+  min-height: 80px;
+}
+
+.header__burger {
+  margin-left: 18px;
+  cursor: pointer;
+}

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Diamond Group</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
@@ -21,13 +21,13 @@
                     <!-- Logo -->
                     <div class="header__logo">
                         <a href="./">
-                            <img src="./assets/img/logo.png" alt="logotype">
+                            <img src="./assets/img/logo-white.svg" alt="logotype">
                         </a>
                     </div>
 
                     <!-- Menu -->
                     <div class="header__burger">
-
+                        <img src="./assets/img/meno.svg" alt="menu">
                     </div>
 
                     <div class="header-menu">
