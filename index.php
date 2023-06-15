@@ -26,36 +26,45 @@
                     </div>
 
                     <!-- Menu -->
-                    <div class="header__burger">
+                    <div class="header__burger_open">
                         <img src="./assets/img/meno.svg" alt="menu">
                     </div>
 
                     <div class="header-menu">
-                        <div class="header-menu__logo">
-                            <a href="./">
-                                <img src="./assets/img/logo.png" alt="logotype">
-                            </a>
-                        </div>
+                        <div class="header-menu__inner">
+                            <div class="header-menu__top">
+                                <div class="header-menu__logo">
+                                    <a href="./">
+                                        <img src="./assets/img/logo-white2.png" alt="logotype">
+                                    </a>
+                                </div>
+                                <div class="header__burger_close">
+                                    <img src="./assets/img/meno-close.svg" alt="menu close">
+                                </div>
+                            </div>
 
-                        <div class="wp-menu">
-                            <ul>
-                                <li><a href="./">Главная</a></li>
-                                <li><a href="#">Услуги</a></li>
-                                <li><a href="#">Портфолио</a></li>
-                                <li><a href="#">О компании</a></li>
-                                <li><a href="#">Информация</a></li>
-                                <li><a href="#">Контакты</a></li>
-                            </ul>
-                        </div>
-                        <div class="header-menu-contact">
-                            <div class="header-menu-contact__item">
-                                <a href="tel:+74994992373">+7 (499) 499-23-73</a>
-                            </div>
-                            <div class="header-menu-contact__item">
-                                <a href="mailto:info@diamond-expo.ru">info@diamond-expo.ru</a>
-                            </div>
-                            <div class="header-menu-contact__item">
-                                <span>ул. Свободы, 35, стр. 8, Москва</span>
+                            <div class="header-menu__bottom">
+                                <div class="wp-menu">
+                                    <ul>
+                                        <li class="wp-menu__item_active"><a href="./">Главная</a></li>
+                                        <li><a href="#">Услуги</a></li>
+                                        <li><a href="#">Портфолио</a></li>
+                                        <li><a href="#">О компании</a></li>
+                                        <li><a href="#">Информация</a></li>
+                                        <li><a href="#">Контакты</a></li>
+                                    </ul>
+                                </div>
+                                <div class="header-menu-contact">
+                                    <div class="header-menu-contact__item">
+                                        <a href="tel:+74994992373">+7 (499) 499-23-73</a>
+                                    </div>
+                                    <div class="header-menu-contact__item">
+                                        <a href="mailto:info@diamond-expo.ru">info@diamond-expo.ru</a>
+                                    </div>
+                                    <div class="header-menu-contact__item">
+                                        <span>ул. Свободы, 35, стр. 8, Москва</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -77,21 +86,24 @@
             <div class="top-slider">
                 <div class="top-slider__item">
                     <div class="container">
-                        <div class="top-slider__item-title">
-                            <h1>Выставочные стенды</h1>
-                        </div>
-                        <div class="top-slider__item-desc">
-                            надежный результат в России и за рубежом
-                        </div>
-                        <div class="top-slider__item-order">
-                            <div class="diamond-btn">Заказать обратный звонок</div>
-                        </div>
-                        <div class="top-slider__item-quote diamond-quote">
-                            Выбрав выставочные стенды от компании Diamond Group, Вы никогда не затеряетесь среди конкурентов даже на самой крупной выставке международного уровня
+                        <div class="top-slider__item-inner">
+                            <div class="top-slider__item-title">
+                                <h1>Выставочные стенды</h1>
+                            </div>
+                            <div class="top-slider__item-desc">
+                                надежный результат в России и за рубежом
+                            </div>
+                            <div class="top-slider__item-order">
+                                <div class="diamond-btn">Заказать обратный звонок</div>
+                            </div>
+                            <div class="top-slider__item-quote diamond-quote">
+                                Выбрав выставочные стенды от компании Diamond Group, Вы никогда не затеряетесь среди конкурентов даже на самой крупной выставке международного уровня
+                            </div>
+                            <div class="top-slider__item-bright"></div>
                         </div>
                     </div>
                     <div class="top-slider__item-img">
-                        <img src="#" alt="#">
+                        <img src="./assets/img/1.png" alt="#">
                     </div>
                 </div>
             </div>
