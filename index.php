@@ -106,6 +106,14 @@
                         <img src="./assets/img/1.png" alt="#">
                     </div>
                 </div>
+
+                <div class="top-slider__dots">
+                    <span class="top-slider__dots_active"></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+
             </div>
         </section>
 
@@ -119,7 +127,7 @@
                         <div class="services__top">
                             <div class="diamond-thumbnail">
                                 <div class="diamond-thumbnail__img">
-                                    <img src="#" alt="#">
+                                    <img src="./assets/img/2.png" alt="#">
                                 </div>
                                 <div class="diamond-thumbnail__body">
                                     <div class="diamond-thumbnail__title">
@@ -129,14 +137,14 @@
                                         Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
                                     </div>
                                     <div class="diamond-thumbnail__arrow">
-                                        <span>--></span>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="diamond-thumbnail">
                                 <div class="diamond-thumbnail__img">
-                                    <img src="#" alt="#">
+                                    <img src="./assets/img/3.png" alt="#">
                                 </div>
                                 <div class="diamond-thumbnail__body">
                                     <div class="diamond-thumbnail__title">
@@ -146,7 +154,7 @@
                                         Организация выставки под ключ позволит вам быть полностью уверенными в том, что все нюансы и особенности процесса полностью соблюдены
                                     </div>
                                     <div class="diamond-thumbnail__arrow">
-                                        <span>--></span>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
@@ -155,7 +163,7 @@
 
                             <div class="diamond-thumbnail">
                                 <div class="diamond-thumbnail__img">
-                                    <img src="#" alt="#">
+                                    <img src="./assets/img/4.png" alt="#">
                                 </div>
                                 <div class="diamond-thumbnail__body">
                                     <div class="diamond-thumbnail__title">
@@ -165,14 +173,14 @@
                                         Мы поможем вам сэкономить средства. Предлагаем вашему вниманию аренду выставочных стендов и необходимого оборудования
                                     </div>
                                     <div class="diamond-thumbnail__arrow">
-                                        <span>--></span>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="diamond-thumbnail">
                                 <div class="diamond-thumbnail__img">
-                                    <img src="#" alt="#">
+                                    <img src="./assets/img/5.png" alt="#">
                                 </div>
                                 <div class="diamond-thumbnail__body">
                                     <div class="diamond-thumbnail__title">
@@ -182,14 +190,14 @@
                                         Продуктивность проведения выставочной экспозиции зависит от слаженной работы персонала. Мы работаем с опытными специалистами, которые помогут вам произвести хорошее впечатление на всех гостей выставки
                                     </div>
                                     <div class="diamond-thumbnail__arrow">
-                                        <span>--></span>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="diamond-thumbnail">
                                 <div class="diamond-thumbnail__img">
-                                    <img src="#" alt="#">
+                                    <img src="./assets/img/6.png" alt="#">
                                 </div>
                                 <div class="diamond-thumbnail__body">
                                     <div class="diamond-thumbnail__title">
@@ -199,15 +207,14 @@
                                         При желании организовать выставку, заказчики рассчитывают на полное цифровое оснащение данного события. Надёжное применение технологий на выставке осуществляет Diamond Group
                                     </div>
                                     <div class="diamond-thumbnail__arrow">
-                                        <span>--></span>
+                                        <span></span>
                                     </div>
                                 </div>
                             </div>
 
                         </div>
                         <div class="diamond-more">
-                            <a href="#">все услуги</a>
-                            <span>--></span>
+                            <a href="#">все услуги<span></span></a>
                         </div>
                     </div>
 
@@ -228,14 +235,14 @@
                             <div class="portfolio__item">
                                 <div class="diamond-thumbnail">
                                     <div class="diamond-thumbnail__img">
-                                        <img src="#" alt="#">
+                                        <img src="./assets/img/7.png" alt="#">
                                     </div>
                                     <div class="diamond-thumbnail__body">
                                         <div class="diamond-thumbnail__title">
                                             Стенд Shetelig
                                         </div>
                                         <div class="diamond-thumbnail__arrow">
-                                            <span>--></span>
+                                            <span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -244,14 +251,14 @@
                             <div class="portfolio__item">
                                 <div class="diamond-thumbnail">
                                     <div class="diamond-thumbnail__img">
-                                        <img src="#" alt="#">
+                                        <img src="./assets/img/8.png" alt="#">
                                     </div>
                                     <div class="diamond-thumbnail__body">
                                         <div class="diamond-thumbnail__title">
                                             Стенд ЯНАО
                                         </div>
                                         <div class="diamond-thumbnail__arrow">
-                                            <span>--></span>
+                                            <span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -260,14 +267,14 @@
                             <div class="portfolio__item">
                                 <div class="diamond-thumbnail">
                                     <div class="diamond-thumbnail__img">
-                                        <img src="#" alt="#">
+                                        <img src="./assets/img/9.png" alt="#">
                                     </div>
                                     <div class="diamond-thumbnail__body">
                                         <div class="diamond-thumbnail__title">
                                             Стенд Shetelig
                                         </div>
                                         <div class="diamond-thumbnail__arrow">
-                                            <span>--></span>
+                                            <span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -276,14 +283,14 @@
                             <div class="portfolio__item">
                                 <div class="diamond-thumbnail">
                                     <div class="diamond-thumbnail__img">
-                                        <img src="#" alt="#">
+                                        <img src="./assets/img/10.png" alt="#">
                                     </div>
                                     <div class="diamond-thumbnail__body">
                                         <div class="diamond-thumbnail__title">
                                             Стенд ЯНАО
                                         </div>
                                         <div class="diamond-thumbnail__arrow">
-                                            <span>--></span>
+                                            <span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -292,14 +299,14 @@
                             <div class="portfolio__item">
                                 <div class="diamond-thumbnail">
                                     <div class="diamond-thumbnail__img">
-                                        <img src="#" alt="#">
+                                        <img src="./assets/img/11.png" alt="#">
                                     </div>
                                     <div class="diamond-thumbnail__body">
                                         <div class="diamond-thumbnail__title">
                                             Cтенд ЧЭТА
                                         </div>
                                         <div class="diamond-thumbnail__arrow">
-                                            <span>--></span>
+                                            <span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -308,14 +315,14 @@
                             <div class="portfolio__item">
                                 <div class="diamond-thumbnail">
                                     <div class="diamond-thumbnail__img">
-                                        <img src="#" alt="#">
+                                        <img src="./assets/img/12.png" alt="#">
                                     </div>
                                     <div class="diamond-thumbnail__body">
                                         <div class="diamond-thumbnail__title">
                                             Стенд NMTC
                                         </div>
                                         <div class="diamond-thumbnail__arrow">
-                                            <span>--></span>
+                                            <span></span>
                                         </div>
                                     </div>
                                 </div>
@@ -324,8 +331,7 @@
 
                         </div>
                         <div class="diamond-more">
-                            <a href="#">смотреть все проекты</a>
-                            <span>--></span>
+                            <a href="#">смотреть все проекты<span></span></a>
                         </div>
                     </div>
                 </div>
@@ -338,7 +344,7 @@
                 <div class="block">
                     <div class="block-faq">
                         <div class="block-faq__img">
-                            <img src="#" alt="#">
+                            <img src="./assets/img/13.png" alt="#">
                         </div>
                         <div class="block-faq__body">
                             <div class="block-faq__title">Ответы на Ваши вопросы:</div>
@@ -389,19 +395,19 @@
                     <h1>Наши клиенты</h1>
                     <div class="client-slider">
                         <div class="client-slide__item">
-                            <img src="#" alt="#">
+                            <img src="./assets/img/clients/1.png" alt="#">
                         </div>
                         <div class="client-slide__item">
-                            <img src="#" alt="#">
+                            <img src="./assets/img/clients/2.png" alt="#">
                         </div>
                         <div class="client-slide__item">
-                            <img src="#" alt="#">
+                            <img src="./assets/img/clients/3.png" alt="#">
                         </div>
                         <div class="client-slide__item">
-                            <img src="#" alt="#">
+                            <img src="./assets/img/clients/4.png" alt="#">
                         </div>
                         <div class="client-slide__item">
-                            <img src="#" alt="#">
+                            <img src="./assets/img/clients/5.png" alt="#">
                         </div>
                     </div>
                 </div>
@@ -417,10 +423,10 @@
                     <div class="reviews-slider">
                         <div class="reviews-slider__item">
                             <div class="reviews-slider__item-img-first">
-                                <img src="#" alt="#">
+                                <img src="./assets/img/reviews/1.png" alt="#">
                             </div>
                             <div class="reviews-slider__item-img-second">
-                                <img src="#" alt="#">
+                                <img src="./assets/img/reviews/2.png" alt="#">
                             </div>
                         </div>
                     </div>
@@ -462,7 +468,7 @@
         <div class="container">
             <div class="footer-top">
                 <div class="footer__logo">
-                    <img src="#" alt="#">
+                    <img src="./assets/img/logo-footer.svg" alt="#">
                 </div>
             </div>
             <div class="footer-bottom">
@@ -510,7 +516,7 @@
                             <div class="diamond-quote">
                                 Компания Даймонд Групп – это опытный застройщик выставочных стендов, как в Москве, так и за ее пределами. Мы предоставляем полный перечень услуг по подготовке к выставочным мероприятиям и обеспечению работы экспозиции
                             </div>
-                            <div class="diamond-quote__arrow">--></div>
+                            <div class="diamond-quote__arrow"><span></span></div>
                         </div>
                     </div>
                 </div>
