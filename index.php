@@ -241,9 +241,11 @@
                                         <div class="diamond-thumbnail__title">
                                             Стенд Shetelig
                                         </div>
-                                        <div class="diamond-thumbnail__arrow">
-                                            <span></span>
-                                        </div>
+                                        <a href="#">
+                                            <div class="diamond-thumbnail__arrow">
+                                                <span></span>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -257,9 +259,11 @@
                                         <div class="diamond-thumbnail__title">
                                             Стенд ЯНАО
                                         </div>
-                                        <div class="diamond-thumbnail__arrow">
-                                            <span></span>
-                                        </div>
+                                        <a href="#">
+                                            <div class="diamond-thumbnail__arrow">
+                                                <span></span>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -273,9 +277,11 @@
                                         <div class="diamond-thumbnail__title">
                                             Стенд Shetelig
                                         </div>
-                                        <div class="diamond-thumbnail__arrow">
-                                            <span></span>
-                                        </div>
+                                        <a href="#">
+                                            <div class="diamond-thumbnail__arrow">
+                                                <span></span>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -289,9 +295,11 @@
                                         <div class="diamond-thumbnail__title">
                                             Стенд ЯНАО
                                         </div>
-                                        <div class="diamond-thumbnail__arrow">
-                                            <span></span>
-                                        </div>
+                                        <a href="#">
+                                            <div class="diamond-thumbnail__arrow">
+                                                <span></span>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -305,9 +313,11 @@
                                         <div class="diamond-thumbnail__title">
                                             Cтенд ЧЭТА
                                         </div>
-                                        <div class="diamond-thumbnail__arrow">
-                                            <span></span>
-                                        </div>
+                                        <a href="#">
+                                            <div class="diamond-thumbnail__arrow">
+                                                <span></span>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -321,13 +331,14 @@
                                         <div class="diamond-thumbnail__title">
                                             Стенд NMTC
                                         </div>
-                                        <div class="diamond-thumbnail__arrow">
-                                            <span></span>
-                                        </div>
+                                        <a href="#">
+                                            <div class="diamond-thumbnail__arrow">
+                                                <span></span>
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-
 
                         </div>
                         <div class="diamond-more">
