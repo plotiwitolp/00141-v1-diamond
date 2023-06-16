@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diamond Group</title>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/libs/slick/slick.css">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 </head>
 
@@ -84,44 +85,83 @@
         <!-- Топ -->
         <section>
             <div class="top-slider">
-                <div class="top-slider__item">
-                    <div class="container">
-                        <div class="top-slider__item-inner">
-                            <div class="top-slider__item-title">
-                                <h1>Выставочные стенды</h1>
+                <div class="top-slider__inner">
+                    <div class="top-slider__item">
+                        <div class="container">
+                            <div class="top-slider__item-inner">
+                                <div class="top-slider__item-title">
+                                    <h1>Выставочные стенды</h1>
+                                </div>
+                                <div class="top-slider__item-desc">
+                                    надежный результат в России и за рубежом
+                                </div>
+                                <div class="top-slider__item-order">
+                                    <div class="diamond-btn">Заказать обратный звонок</div>
+                                </div>
+                                <div class="top-slider__item-quote diamond-quote">
+                                    Выбрав выставочные стенды от компании Diamond Group, Вы никогда не затеряетесь среди конкурентов даже на самой крупной выставке международного уровня
+                                </div>
+                                <div class="top-slider__item-bright"></div>
                             </div>
-                            <div class="top-slider__item-desc">
-                                надежный результат в России и за рубежом
-                            </div>
-                            <div class="top-slider__item-order">
-                                <div class="diamond-btn">Заказать обратный звонок</div>
-                            </div>
-                            <div class="top-slider__item-quote diamond-quote">
-                                Выбрав выставочные стенды от компании Diamond Group, Вы никогда не затеряетесь среди конкурентов даже на самой крупной выставке международного уровня
-                            </div>
-                            <div class="top-slider__item-bright"></div>
+                        </div>
+                        <div class="top-slider__item-img">
+                            <img src="./assets/img/1.png" alt="#">
                         </div>
                     </div>
-                    <div class="top-slider__item-img">
-                        <img src="./assets/img/1.png" alt="#">
+                    <div class="top-slider__item">
+                        <div class="container">
+                            <div class="top-slider__item-inner">
+                                <div class="top-slider__item-title">
+                                    <h1>Выставочные стенды слайд 2</h1>
+                                </div>
+                                <div class="top-slider__item-desc">
+                                    надежный результат в России и за рубежом слайд 2
+                                </div>
+                                <div class="top-slider__item-order">
+                                    <div class="diamond-btn">Заказать обратный звонок</div>
+                                </div>
+                                <div class="top-slider__item-quote diamond-quote">
+                                    Выбрав выставочные стенды от компании Diamond Group, Вы никогда не затеряетесь среди конкурентов даже на самой крупной выставке международного уровня слайд 2
+                                </div>
+                                <div class="top-slider__item-bright"></div>
+                            </div>
+                        </div>
+                        <div class="top-slider__item-img">
+                            <img src="./assets/img/1.png" alt="#">
+                        </div>
+                    </div>
+                    <div class="top-slider__item">
+                        <div class="container">
+                            <div class="top-slider__item-inner">
+                                <div class="top-slider__item-title">
+                                    <h1>Пример слайда 3</h1>
+                                </div>
+                                <div class="top-slider__item-desc">
+                                    надежный результат в России и за рубежом слайд 3
+                                </div>
+                                <div class="top-slider__item-order">
+                                    <div class="diamond-btn">Заказать обратный звонок</div>
+                                </div>
+                                <div class="top-slider__item-quote diamond-quote">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugiat explicabo, enim similique aut voluptatibus quidem vitae harum distinctio consectetur cupiditate totam perspiciatis velit sunt. Id, voluptatem. Doloribus, dolorum alias?
+                                </div>
+                                <div class="top-slider__item-bright"></div>
+                            </div>
+                        </div>
+                        <div class="top-slider__item-img">
+                            <img src="./assets/img/1.png" alt="#">
+                        </div>
                     </div>
                 </div>
-
-                <div class="top-slider__dots">
-                    <span class="top-slider__dots_active"></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-
             </div>
         </section>
 
         <!-- Услуги -->
-        <section>
+        <section class="services-wrap">
             <div class="container">
                 <div class="block">
                     <h1>Наши услуги</h1>
+
                     <div class="services">
 
                         <div class="services__top">
@@ -217,7 +257,6 @@
                             <a href="#">все услуги<span></span></a>
                         </div>
                     </div>
-
 
 
                 </div>
@@ -351,49 +390,53 @@
 
         <!-- FAQ -->
         <section>
-            <div class="container">
-                <div class="block">
-                    <div class="block-faq">
-                        <div class="block-faq__img">
-                            <img src="./assets/img/13.png" alt="#">
-                        </div>
-                        <div class="block-faq__body">
-                            <div class="block-faq__title">Ответы на Ваши вопросы:</div>
-                            <div class="diamond-accordion">
-                                <div class="diamond-accordion__item">
-                                    <div class="diamond-accordion__item-label">
-                                        <span>Наши преимущества</span>
-                                        <i class="fa fa-chevron-up" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="diamond-accordion__item-text">
-                                        Мы уже несколько лет занимаемся организацией выставок. В своей работе мы учитываем интересы клиентов и подготавливаем мероприятие к выбранной тематике. Наша команда состоит из опытных профессионалов, которые действуют слаженно в течение всей выставки. Мы гарантируем вам:
+            <div class="block">
+                <div class="block-faq">
+                    <div class="block-faq__img">
+                        <img src="./assets/img/13.png" alt="#">
+                    </div>
 
-                                        — индивидуальный подход;
-                                        — Cтроительство дизайнерской экспозиции из надёжных материалов;
-                                        — проведение мероприятия без каких-либо нюансов
+                    <div class="block-faq__body">
+                        <div class="container">
+                            <div class="block-faq__body-inner">
+                                <div class="block-faq__title">Ответы на Ваши вопросы:</div>
+                                <div class="diamond-accordion">
+                                    <div class="diamond-accordion__item">
+                                        <div class="diamond-accordion__item-label">
+                                            <span>Наши преимущества</span>
+                                            <span class="diamond-accordion__chevrone diamond-accordion__chevrone-down"></span>
+                                        </div>
+                                        <div class="diamond-accordion__item-text diamond-accordion__item-text_active">
+                                            Мы уже несколько лет занимаемся организацией выставок. В своей работе мы учитываем интересы клиентов и подготавливаем мероприятие к выбранной тематике. Наша команда состоит из опытных профессионалов, которые действуют слаженно в течение всей выставки. Мы гарантируем вам:
+
+                                            — индивидуальный подход;
+                                            — Cтроительство дизайнерской экспозиции из надёжных материалов;
+                                            — проведение мероприятия без каких-либо нюансов
+                                        </div>
                                     </div>
-                                </div>
-                                <div class="diamond-accordion__item">
-                                    <div class="diamond-accordion__item-label">
-                                        <span>Этапы работы</span>
-                                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
+                                    <div class="diamond-accordion__item">
+                                        <div class="diamond-accordion__item-label">
+                                            <span>Этапы работы</span>
+                                            <span class="diamond-accordion__chevrone diamond-accordion__chevrone-up"></span>
+                                        </div>
+                                        <div class="diamond-accordion__item-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde praesentium ducimus voluptates quisquam aperiam ratione doloribus quidem vel ipsum magnam voluptatum dolore vitae porro exercitationem tempore et, mollitia hic?
+                                        </div>
                                     </div>
-                                    <div class="diamond-accordion__item-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde praesentium ducimus voluptates quisquam aperiam ratione doloribus quidem vel ipsum magnam voluptatum dolore vitae porro exercitationem tempore et, mollitia hic?
-                                    </div>
-                                </div>
-                                <div class="diamond-accordion__item">
-                                    <div class="diamond-accordion__item-label">
-                                        <span>Наши гарантии</span>
-                                        <i class="fa fa-chevron-down" aria-hidden="true"></i>
-                                    </div>
-                                    <div class="diamond-accordion__item-text">
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde praesentium ducimus voluptates quisquam aperiam ratione doloribus quidem vel ipsum magnam voluptatum dolore vitae porro exercitationem tempore et, mollitia hic?
+                                    <div class="diamond-accordion__item">
+                                        <div class="diamond-accordion__item-label">
+                                            <span>Наши гарантии</span>
+                                            <span class="diamond-accordion__chevrone diamond-accordion__chevrone-up"></span>
+                                        </div>
+                                        <div class="diamond-accordion__item-text">
+                                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet unde praesentium ducimus voluptates quisquam aperiam ratione doloribus quidem vel ipsum magnam voluptatum dolore vitae porro exercitationem tempore et, mollitia hic?
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
@@ -405,20 +448,44 @@
                 <div class="block">
                     <h1>Наши клиенты</h1>
                     <div class="client-slider">
-                        <div class="client-slide__item">
-                            <img src="./assets/img/clients/1.png" alt="#">
+                        <div class="client-slider__arrow-prev">
+                            <span></span>
                         </div>
-                        <div class="client-slide__item">
-                            <img src="./assets/img/clients/2.png" alt="#">
+                        <div class="client-slider__inner">
+                            <div class="client-slide__item">
+                                <img src="./assets/img/clients/1.png" alt="#">
+                            </div>
+                            <div class="client-slide__item">
+                                <img src="./assets/img/clients/2.png" alt="#">
+                            </div>
+                            <div class="client-slide__item">
+                                <img src="./assets/img/clients/3.png" alt="#">
+                            </div>
+                            <div class="client-slide__item">
+                                <img src="./assets/img/clients/4.png" alt="#">
+                            </div>
+                            <div class="client-slide__item">
+                                <img src="./assets/img/clients/5.png" alt="#">
+                            </div>
+
+                            <div class="client-slide__item">
+                                <img src="./assets/img/clients/1.png" alt="#">
+                            </div>
+                            <div class="client-slide__item">
+                                <img src="./assets/img/clients/2.png" alt="#">
+                            </div>
+                            <div class="client-slide__item">
+                                <img src="./assets/img/clients/3.png" alt="#">
+                            </div>
+                            <div class="client-slide__item">
+                                <img src="./assets/img/clients/4.png" alt="#">
+                            </div>
+                            <div class="client-slide__item">
+                                <img src="./assets/img/clients/5.png" alt="#">
+                            </div>
                         </div>
-                        <div class="client-slide__item">
-                            <img src="./assets/img/clients/3.png" alt="#">
-                        </div>
-                        <div class="client-slide__item">
-                            <img src="./assets/img/clients/4.png" alt="#">
-                        </div>
-                        <div class="client-slide__item">
-                            <img src="./assets/img/clients/5.png" alt="#">
+                        <div class="client-slider__arrow-next">
+                            <span></span>
                         </div>
                     </div>
                 </div>
@@ -432,41 +499,66 @@
                     <h1>Отзывы</h1>
 
                     <div class="reviews-slider">
-                        <div class="reviews-slider__item">
-                            <div class="reviews-slider__item-img-first">
-                                <img src="./assets/img/reviews/1.png" alt="#">
+                        <div class="reviews-slider__arrow-prev">
+                            <span></span>
+                        </div>
+                        <div class="reviews-slider__inner">
+                            <div class="reviews-slider__item">
+                                <div class="reviews-slider__item__inner">
+                                    <div class="reviews-slider__item-img-first">
+                                        <img src="./assets/img/reviews/1.png" alt="#">
+                                    </div>
+                                    <div class="reviews-slider__item-img-second">
+                                        <img src="./assets/img/reviews/2.png" alt="#">
+                                    </div>
+                                </div>
                             </div>
-                            <div class="reviews-slider__item-img-second">
-                                <img src="./assets/img/reviews/2.png" alt="#">
+
+                            <div class="reviews-slider__item">
+                                <div class="reviews-slider__item__inner">
+                                    <div class="reviews-slider__item-img-first">
+                                        <img src="./assets/img/reviews/1.png" alt="#">
+                                    </div>
+                                    <div class="reviews-slider__item-img-second">
+                                        <img src="./assets/img/reviews/2.png" alt="#">
+                                    </div>
+                                </div>
                             </div>
+
+                        </div>
+                        <div class="reviews-slider__arrow-next">
+                            <span></span>
                         </div>
                     </div>
+
                 </div>
             </div>
         </section>
 
         <!-- ФОС - Хотите заказать себе? -->
         <section>
-            <div class="container">
-                <div class="block">
-                    <h1>Хотите заказать себе?</h1>
-                    <div class="feedback-form">
-                        <div class="feedback-form__info">
-                            Оставь свою заявку прямо сейчас:
+            <div class="feedback">
+                <div class="container">
+                    <div class="block">
+                        <h1>Хотите заказать себе?</h1>
+                        <div class="feedback-form">
+                            <div class="feedback-form__info">
+                                Оставь свою заявку прямо сейчас:
+                            </div>
+                            <form action="">
+
+                                <div class="feedback-form___top">
+                                    <input type="text" placeholder="Ваше имя">
+                                    <input type="text" placeholder="Ваш телефон">
+                                    <input type="text" placeholder="Ваша компания">
+                                </div>
+                                <div class="feedback-form___bottom">
+                                    <textarea placeholder="Сообщение"></textarea>
+                                    <input class="diamond-btn" type="submit" value="Отправить">
+                                </div>
+
+                            </form>
                         </div>
-                        <form action="">
-                            <p>
-                            <div class="feedback-form___top">
-                                <input type="text" placeholder="Ваше имя">
-                                <input type="text" placeholder="Ваше имя">
-                                <input type="text" placeholder="Ваше имя">
-                            </div>
-                            <div class="feedback-form___bottom">
-                                <textarea placeholder="Сообщение"></textarea>
-                                <input type="submit" value="Отправить">
-                            </div>
-                            </p>
-                        </form>
                     </div>
                 </div>
             </div>
@@ -487,23 +579,31 @@
                     <div class="footer-contact">
                         <div class="footer-contact__item">
                             <a href="tel:+74994992373">
-                                <span>icon</span>
+                                <span class="footer-contact__item-icon">
+                                    <img src="./assets/img/phone-3.png" alt="phone-3">
+                                </span>
                                 <span>+7 (499) 499-23-73</span>
                             </a>
                         </div>
                         <div class="footer-contact__item">
                             <a href="mailto:info@diamond-expo.ru">
-                                <span>icon</span>
+                                <span class="footer-contact__item-icon">
+                                    <img src="./assets/img/mail.png" alt="mail">
+                                </span>
                                 <span>info@diamond-expo.ru</span>
                             </a>
                         </div>
                         <div class="footer-contact__item">
-                            <span>icon</span>
+                            <span class="footer-contact__item-icon">
+                                <img src="./assets/img/location.svg" alt="location">
+                            </span>
                             <span>ул. Свободы, 35, стр. 8, Москва</span>
                         </div>
                         <div class="footer-contact__item">
                             <a href="#">
-                                <span>icon</span>
+                                <span class="footer-contact__item-icon">
+                                    <img src="./assets/img/vkontakte_icon-icons.com_61245 1.png" alt="vkontakte_icon">
+                                </span>
                                 <span>ВКонтакте</span>
                             </a>
                         </div>
@@ -536,6 +636,7 @@
     </footer>
 
     <script src="./assets/js/jquery-3.6.0.min.js"></script>
+    <script src="./assets/libs/slick/slick.min.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 
