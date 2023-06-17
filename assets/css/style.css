@@ -319,7 +319,6 @@ header {
 
 .diamond-btn {
   display: inline-block;
-  padding: 25px 24px;
   border: 3px solid #000000;
   font-weight: 400;
   font-size: 18px;
@@ -327,6 +326,10 @@ header {
   cursor: pointer;
   -webkit-transition: background-color 0.25s ease-in-out;
   transition: background-color 0.25s ease-in-out;
+}
+.diamond-btn a {
+  display: block;
+  padding: 25px 24px;
 }
 .diamond-btn:hover {
   background-color: #000000;
@@ -1319,18 +1322,22 @@ footer .diamond-quote__arrow span::before {
   .diamond-more a {
     font-size: 16px;
     line-height: 177.4%;
-    border: 1px solid #000000;
+    border: 3px solid #000000;
   }
   .reviews-slider {
     margin: 0px auto 53px auto;
   }
   .feedback h1 {
     padding: 40px 0 0;
+    font-size: 25px;
+    line-height: 142.9%;
   }
   .feedback-form__info {
     font-size: 18px;
     line-height: 142.9%;
     margin-bottom: 43px;
+    max-width: 300px;
+    margin: 20px auto 35px;
   }
   .feedback-form___top {
     gap: 20px;
@@ -1450,6 +1457,10 @@ footer .diamond-quote__arrow span::before {
   }
   .header__logo a img {
     width: 100%;
+  }
+  .top-slider__item-inner,
+  .header-menu__inner {
+    height: calc(100vh - 80px);
   }
 }
 @media (max-width: 425px) {

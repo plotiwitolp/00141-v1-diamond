@@ -96,7 +96,11 @@
                                     надежный результат в России и за рубежом
                                 </div>
                                 <div class="top-slider__item-order">
-                                    <div class="diamond-btn">Заказать обратный звонок</div>
+                                    <div class="diamond-btn">
+                                        <a href="#feedback">
+                                            Заказать обратный звонок
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="top-slider__item-quote diamond-quote">
                                     Выбрав выставочные стенды от компании Diamond Group, Вы никогда не затеряетесь среди конкурентов даже на самой крупной выставке международного уровня
@@ -118,7 +122,11 @@
                                     надежный результат в России и за рубежом слайд 2
                                 </div>
                                 <div class="top-slider__item-order">
-                                    <div class="diamond-btn">Заказать обратный звонок</div>
+                                    <div class="diamond-btn">
+                                        <a href="#feedback">
+                                            Заказать обратный звонок
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="top-slider__item-quote diamond-quote">
                                     Выбрав выставочные стенды от компании Diamond Group, Вы никогда не затеряетесь среди конкурентов даже на самой крупной выставке международного уровня слайд 2
@@ -140,7 +148,11 @@
                                     надежный результат в России и за рубежом слайд 3
                                 </div>
                                 <div class="top-slider__item-order">
-                                    <div class="diamond-btn">Заказать обратный звонок</div>
+                                    <div class="diamond-btn">
+                                        <a href="#feedback">
+                                            Заказать обратный звонок
+                                        </a>
+                                    </div>
                                 </div>
                                 <div class="top-slider__item-quote diamond-quote">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugiat explicabo, enim similique aut voluptatibus quidem vitae harum distinctio consectetur cupiditate totam perspiciatis velit sunt. Id, voluptatem. Doloribus, dolorum alias?
@@ -537,7 +549,7 @@
 
         <!-- ФОС - Хотите заказать себе? -->
         <section>
-            <div class="feedback">
+            <div class="feedback" id="feedback">
                 <div class="container">
                     <div class="block">
                         <h1>Хотите заказать себе?</h1>

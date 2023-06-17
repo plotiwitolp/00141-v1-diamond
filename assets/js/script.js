@@ -31,11 +31,25 @@
     $('.top-slider__inner').slick({
       dots: true,
       arrows: false,
-      autoplay: true,
+      // autoplay: true,
       fade: true,
       cssEase: 'linear',
       autoplaySpeed: 3500,
       speed: 500,
+      responsive: [
+        {
+          breakpoint: 2000,
+          settings: {
+            autoplay: true,
+          },
+        },
+        {
+          breakpoint: 600,
+          settings: {
+            autoplay: false,
+          },
+        },
+      ],
     });
     // end top slider
 
