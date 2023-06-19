@@ -96,5 +96,14 @@
       ],
     });
     // end  reviews slider
+
+    // start popup services
+    $('.services-wrap .diamond-thumbnail__arrow').on('click', function () {
+      $('.outer-popup-services').addClass('popup-services_active');
+    });
+    $('.popup-services__close').on('click', function () {
+      $('.outer-popup-services').removeClass('popup-services_active');
+    });
+    // end popup services
   });
 })(jQuery);
