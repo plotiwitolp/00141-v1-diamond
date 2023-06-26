@@ -98,12 +98,18 @@
     // end  reviews slider
 
     // start popup services
-    $('.services-wrap .diamond-thumbnail__arrow').on('click', function () {
-      $('.outer-popup-services').addClass('popup-services_active');
-    });
-    $('.popup-services__close').on('click', function () {
-      $('.outer-popup-services').removeClass('popup-services_active');
-    });
+    // $('.services-wrap .diamond-thumbnail__arrow').on('click', function () {
+    //   $('.outer-popup-services').addClass('popup-services_active');
+    // });
+    // $('.popup-services__close').on('click', function () {
+    //   $('.outer-popup-services').removeClass('popup-services_active');
+    // });
     // end popup services
+
+    $('.about-top-slider__inner').slick({
+      fade: true,
+      prevArrow: $('.about-slider__arrow-prev'),
+      nextArrow: $('.about-slider__arrow-next'),
+    });
   });
 })(jQuery);

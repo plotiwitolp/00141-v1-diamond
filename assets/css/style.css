@@ -78,6 +78,10 @@ body {
   height: 100%;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   font-family: "Montserrat";
@@ -108,7 +112,7 @@ h1 {
   text-transform: uppercase;
   font-weight: 400;
   font-size: 44px;
-  line-height: 177.4%;
+  line-height: 100.4%;
   text-align: center;
   margin: 59px;
 }
@@ -460,6 +464,11 @@ footer .diamond-quote::before {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   gap: 40px;
+}
+.services .services__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .services__item:nth-child(5n+1) {
@@ -826,6 +835,53 @@ footer .diamond-quote::before {
   right: 0;
 }
 
+.about-top {
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 40px;
+}
+
+.about-top-desc {
+  padding: 49px 43px 48px 46px;
+  background-color: #f2f2f2;
+  line-height: 27px;
+}
+
+.about-top-slider {
+  position: relative;
+}
+
+.about-slider__arrow-prev,
+.about-slider__arrow-next {
+  position: absolute;
+  z-index: 99;
+  bottom: 39px;
+}
+
+.about-slider__arrow-prev span::before,
+.about-slider__arrow-next span::before {
+  content: "";
+  display: inline-block;
+  height: 11px;
+  width: 52px;
+  background-image: url(../img/arrow-3.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.about-slider__arrow-prev {
+  left: 20px;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.about-slider__arrow-next {
+  right: 20px;
+}
+
 .reviews-slider {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1063,7 +1119,7 @@ footer .diamond-quote__arrow span::before {
   margin-top: 87px;
 }
 .page-inner .page-title {
-  margin: 0;
+  margin: 0 0 20px 0;
   padding-top: 55px;
   text-align: left;
 }
@@ -1112,6 +1168,93 @@ footer .diamond-quote__arrow span::before {
   cursor: pointer;
 }
 
+.about-top-slider {
+  width: 660px;
+}
+
+.about-top-slider__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.about-top-slider__item-title {
+  height: 102px;
+  margin-top: -102px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: rgba(242, 242, 242, 0.7);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.about-second {
+  padding: 45px 40px 44px 46px;
+  background-color: #f2f2f2;
+  margin-bottom: 40px;
+  line-height: 27px;
+}
+
+.about-second__title {
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.about-third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 123px;
+}
+
+.about-third__item {
+  width: calc(50% - 20px);
+  padding: 42px 29px 39px 42px;
+  background-color: #f2f2f2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-third__item-pic {
+  margin-right: 32px;
+}
+
+.about-third__item-desc-title {
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.about-third__item-desc-body {
+  line-height: 27px;
+}
+
 @media (max-width: 1160px) {
   .container {
     max-width: 834px;
@@ -1148,8 +1291,14 @@ footer .diamond-quote__arrow span::before {
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
+  .services .services__item {
+    width: 460px;
+  }
   .services .services__item .diamond-thumbnail {
     width: 460px;
+  }
+  .services .services__item .diamond-thumbnail .diamond-thumbnail__img {
+    height: 174px;
   }
   .services .diamond-more {
     display: none;
@@ -1430,6 +1579,13 @@ footer .diamond-quote__arrow span::before {
   }
   .block-faq__img img {
     width: 100%;
+  }
+  .services .services__item,
+  .services .services__item .diamond-thumbnail {
+    width: 340px;
+  }
+  .services .services__item .diamond-thumbnail .diamond-thumbnail__img {
+    height: 128px;
   }
   .portfolio {
     margin-bottom: 44px;

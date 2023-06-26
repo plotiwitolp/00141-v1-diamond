@@ -21,7 +21,7 @@
                                     <div class="diamond-thumbnail__title">
                                         Стенд Shetelig
                                     </div>
-                                    <a href="#">
+                                    <a href="./single-portfolio.php">
                                         <div class="diamond-thumbnail__arrow">
                                             <span></span>
                                         </div>
@@ -39,7 +39,7 @@
                                     <div class="diamond-thumbnail__title">
                                         Стенд ЯНАО
                                     </div>
-                                    <a href="#">
+                                    <a href="./single-portfolio.php">
                                         <div class="diamond-thumbnail__arrow">
                                             <span></span>
                                         </div>
@@ -57,7 +57,7 @@
                                     <div class="diamond-thumbnail__title">
                                         Стенд Shetelig
                                     </div>
-                                    <a href="#">
+                                    <a href="./single-portfolio.php">
                                         <div class="diamond-thumbnail__arrow">
                                             <span></span>
                                         </div>
@@ -75,7 +75,7 @@
                                     <div class="diamond-thumbnail__title">
                                         Стенд ЯНАО
                                     </div>
-                                    <a href="#">
+                                    <a href="./single-portfolio.php">
                                         <div class="diamond-thumbnail__arrow">
                                             <span></span>
                                         </div>
@@ -93,7 +93,7 @@
                                     <div class="diamond-thumbnail__title">
                                         Cтенд ЧЭТА
                                     </div>
-                                    <a href="#">
+                                    <a href="./single-portfolio.php">
                                         <div class="diamond-thumbnail__arrow">
                                             <span></span>
                                         </div>
@@ -111,7 +111,7 @@
                                     <div class="diamond-thumbnail__title">
                                         Стенд NMTC
                                     </div>
-                                    <a href="#">
+                                    <a href="./single-portfolio.php">
                                         <div class="diamond-thumbnail__arrow">
                                             <span></span>
                                         </div>
@@ -129,7 +129,7 @@
                                     <div class="diamond-thumbnail__title">
                                         Стенд Shetelig
                                     </div>
-                                    <a href="#">
+                                    <a href="./single-portfolio.php">
                                         <div class="diamond-thumbnail__arrow">
                                             <span></span>
                                         </div>
@@ -147,7 +147,7 @@
                                     <div class="diamond-thumbnail__title">
                                         Стенд ЯНАО
                                     </div>
-                                    <a href="#">
+                                    <a href="./single-portfolio.php">
                                         <div class="diamond-thumbnail__arrow">
                                             <span></span>
                                         </div>
@@ -165,7 +165,7 @@
                                     <div class="diamond-thumbnail__title">
                                         Cтенд ЧЭТА
                                     </div>
-                                    <a href="#">
+                                    <a href="./single-portfolio.php">
                                         <div class="diamond-thumbnail__arrow">
                                             <span></span>
                                         </div>
@@ -183,7 +183,7 @@
                                     <div class="diamond-thumbnail__title">
                                         Стенд NMTC
                                     </div>
-                                    <a href="#">
+                                    <a href="./single-portfolio.php">
                                         <div class="diamond-thumbnail__arrow">
                                             <span></span>
                                         </div>
