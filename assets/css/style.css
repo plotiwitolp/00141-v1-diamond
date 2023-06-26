@@ -449,21 +449,31 @@ footer .diamond-quote::before {
   width: 100%;
 }
 
-.services__top {
+.services {
+  margin: 35px 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: stretch;
-      -ms-flex-align: stretch;
-          align-items: stretch;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   gap: 40px;
-  margin-bottom: 40px;
 }
-.services__top .diamond-thumbnail:nth-child(1) {
+
+.services__item:nth-child(5n+1) {
   width: 460px;
 }
-.services__top .diamond-thumbnail:nth-child(2) {
+
+.services__item:nth-child(5n+2) {
   width: 660px;
+}
+
+.services__item:nth-child(5n+3),
+.services__item:nth-child(5n+4),
+.services__item:nth-child(5n+5) {
+  width: 360px;
 }
 
 .diamond-thumbnail {
@@ -539,12 +549,6 @@ footer .diamond-quote::before {
   background-image: url(../img/arrow-1.svg);
   background-position: center;
   background-repeat: no-repeat;
-}
-
-.services__bottom {
-  display: grid;
-  grid-template-columns: 360px 360px 360px;
-  gap: 40px;
 }
 
 .diamond-more {
@@ -1137,11 +1141,15 @@ footer .diamond-quote__arrow span::before {
   .top-slider__item-order {
     margin-bottom: 81px;
   }
-  .services__top,
-  .services__bottom {
-    gap: 19px;
-    min-height: 526px;
-    margin-bottom: 0;
+  .services {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .services .services__item .diamond-thumbnail {
+    width: 460px;
   }
   .services .diamond-more {
     display: none;
@@ -1156,15 +1164,6 @@ footer .diamond-quote__arrow span::before {
             flex-direction: row;
     gap: 19px;
     overflow-x: scroll;
-  }
-  .services__top .diamond-thumbnail:nth-child(2) {
-    width: 460px;
-  }
-  .services__top .diamond-thumbnail:nth-child(2) img {
-    width: auto;
-  }
-  .services__bottom {
-    grid-template-columns: 460px 460px 460px;
   }
   .portfolio-inner {
     -ms-flex-wrap: nowrap;
@@ -1284,31 +1283,6 @@ footer .diamond-quote__arrow span::before {
             flex-direction: column;
     overflow: auto;
   }
-  .page-inner .services__bottom {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    gap: 21px;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .page-inner .services__top .diamond-thumbnail {
-    width: calc(50% - 10.5px);
-  }
-  .page-inner .services__bottom .diamond-thumbnail:nth-child(2),
-  .page-inner .services__bottom .diamond-thumbnail:nth-child(3) {
-    width: calc(50% - 10.5px);
-  }
-  .page-inner .services .diamond-thumbnail__body {
-    height: 100%;
-  }
-  .page-inner .services__bottom .diamond-thumbnail:nth-child(1) {
-    width: 100%;
-  }
   .page-inner .portfolio-inner {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -1402,18 +1376,6 @@ footer .diamond-quote__arrow span::before {
   .footer-bottom .footer__item:nth-child(1),
   .footer-bottom .footer__item:nth-child(2) {
     margin-right: 5px;
-  }
-  .page-inner .services__top,
-  .page-inner .services__bottom {
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-  }
-  .page-inner .services__top .diamond-thumbnail {
-    width: 100%;
-  }
-  .page-inner .services__bottom .diamond-thumbnail:nth-child(2),
-  .page-inner .services__bottom .diamond-thumbnail:nth-child(3) {
-    width: 100%;
   }
 }
 @media (max-width: 600px) {
@@ -1565,20 +1527,6 @@ footer .diamond-quote__arrow span::before {
   }
 }
 @media (max-width: 490px) {
-  .services__top .diamond-thumbnail,
-  .services__bottom .diamond-thumbnail,
-  .portfolio__item .diamond-thumbnail {
-    width: 340px !important;
-  }
-  .diamond-thumbnail__img {
-    height: 180px;
-  }
-  .diamond-thumbnail__body {
-    height: calc(100% - 180px);
-  }
-  .services__bottom {
-    grid-template-columns: 350px 350px 350px;
-  }
   .portfolio__item .diamond-thumbnail__img {
     height: 300px;
   }
@@ -1624,11 +1572,6 @@ footer .diamond-quote__arrow span::before {
   .top-slider__item-inner,
   .header-menu__inner {
     height: calc(100vh - 80px);
-  }
-  .page-inner .services__top .diamond-thumbnail,
-  .page-inner .services__bottom .diamond-thumbnail,
-  .page-inner .portfolio__item .diamond-thumbnail {
-    width: 100% !important;
   }
 }
 @media (max-width: 425px) {

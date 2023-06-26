@@ -95,7 +95,7 @@
 
             <div class="services">
 
-                <div class="services__top">
+                <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
                             <img src="./assets/img/2.png" alt="#">
@@ -112,7 +112,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
                             <img src="./assets/img/3.png" alt="#">
@@ -130,8 +132,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="services__bottom">
 
+                <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
                             <img src="./assets/img/4.png" alt="#">
@@ -148,7 +150,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
                             <img src="./assets/img/5.png" alt="#">
@@ -165,7 +169,9 @@
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
                             <img src="./assets/img/6.png" alt="#">
@@ -182,14 +188,464 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <div class="diamond-more">
-                    <a href="#">все услуги<span></span></a>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services__item">
+                    <div class="diamond-thumbnail">
+                        <div class="diamond-thumbnail__img">
+                            <img src="./assets/img/2.png" alt="#">
+                        </div>
+                        <div class="diamond-thumbnail__body">
+                            <div class="diamond-thumbnail__title">
+                                Застройка выставочных стендов
+                            </div>
+                            <div class="diamond-thumbnail__text">
+                                Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
+                            </div>
+                            <div class="diamond-thumbnail__arrow">
+                                <span></span>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
-
+            <div class="diamond-more">
+                <a href="#">все услуги<span></span></a>
+            </div>
         </div>
     </div>
 </section>

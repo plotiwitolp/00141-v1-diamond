@@ -8,7 +8,7 @@
     <title>Diamond Group</title>
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/libs/slick/slick.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
 </head>
 
 <body>
