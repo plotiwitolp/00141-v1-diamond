@@ -13,10 +13,11 @@
             <div class="block">
                 <div class="services">
 
+
                     <div class="services__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/2.png" alt="#">
+                                <img src="./assets/img/stands/1.png" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
@@ -55,12 +56,10 @@
                         </div>
                     </div>
 
-
-
                     <div class="services__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/4.png" alt="#">
+                                <img src="./assets/img/stands/2.png" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
@@ -81,7 +80,7 @@
                     <div class="services__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/5.png" alt="#">
+                                <img src="./assets/img/stands/3.png" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
@@ -102,7 +101,7 @@
                     <div class="services__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/6.png" alt="#">
+                                <img src="./assets/img/stands/4.png" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
@@ -123,7 +122,7 @@
                     <div class="services__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/2.png" alt="#">
+                                <img src="./assets/img/stands/1.png" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
@@ -144,7 +143,7 @@
                     <div class="services__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/2.png" alt="#">
+                                <img src="./assets/img/stands/1.png" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
@@ -161,6 +160,70 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="services__item">
+                        <div class="diamond-thumbnail">
+                            <div class="diamond-thumbnail__img">
+                                <img src="./assets/img/stands/2.png" alt="#">
+                            </div>
+                            <div class="diamond-thumbnail__body">
+                                <div class="diamond-thumbnail__title">
+                                    Дополнительные услуги
+                                </div>
+                                <div class="diamond-thumbnail__text">
+                                    Мы поможем вам сэкономить средства. Предлагаем вашему вниманию аренду выставочных стендов и необходимого оборудования
+                                </div>
+                                <div class="diamond-thumbnail__arrow">
+                                    <a href="./single-services.php">
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="diamond-thumbnail">
+                            <div class="diamond-thumbnail__img">
+                                <img src="./assets/img/stands/3.png" alt="#">
+                            </div>
+                            <div class="diamond-thumbnail__body">
+                                <div class="diamond-thumbnail__title">
+                                    Персонал
+                                </div>
+                                <div class="diamond-thumbnail__text">
+                                    Продуктивность проведения выставочной экспозиции зависит от слаженной работы персонала. Мы работаем с опытными специалистами, которые помогут вам произвести хорошее впечатление на всех гостей выставки
+                                </div>
+                                <div class="diamond-thumbnail__arrow">
+                                    <a href="./single-services.php">
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="services__item">
+                        <div class="diamond-thumbnail">
+                            <div class="diamond-thumbnail__img">
+                                <img src="./assets/img/stands/4.png" alt="#">
+                            </div>
+                            <div class="diamond-thumbnail__body">
+                                <div class="diamond-thumbnail__title">
+                                    Цифровые технологии
+                                </div>
+                                <div class="diamond-thumbnail__text">
+                                    При желании организовать выставку, заказчики рассчитывают на полное цифровое оснащение данного события. Надёжное применение технологий на выставке осуществляет Diamond Group
+                                </div>
+                                <div class="diamond-thumbnail__arrow">
+                                    <a href="./single-services.php">
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
 
 
                 </div>

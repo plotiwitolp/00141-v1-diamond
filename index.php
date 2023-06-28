@@ -108,7 +108,9 @@
                                 Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
                             </div>
                             <div class="diamond-thumbnail__arrow">
-                                <span></span>
+                                <a href="./single-services.php">
+                                    <span></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -127,7 +129,9 @@
                                 Организация выставки под ключ позволит вам быть полностью уверенными в том, что все нюансы и особенности процесса полностью соблюдены
                             </div>
                             <div class="diamond-thumbnail__arrow">
-                                <span></span>
+                                <a href="./single-services.php">
+                                    <span></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -146,7 +150,9 @@
                                 Мы поможем вам сэкономить средства. Предлагаем вашему вниманию аренду выставочных стендов и необходимого оборудования
                             </div>
                             <div class="diamond-thumbnail__arrow">
-                                <span></span>
+                                <a href="./single-services.php">
+                                    <span></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -165,7 +171,9 @@
                                 Продуктивность проведения выставочной экспозиции зависит от слаженной работы персонала. Мы работаем с опытными специалистами, которые помогут вам произвести хорошее впечатление на всех гостей выставки
                             </div>
                             <div class="diamond-thumbnail__arrow">
-                                <span></span>
+                                <a href="./single-services.php">
+                                    <span></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -184,7 +192,9 @@
                                 При желании организовать выставку, заказчики рассчитывают на полное цифровое оснащение данного события. Надёжное применение технологий на выставке осуществляет Diamond Group
                             </div>
                             <div class="diamond-thumbnail__arrow">
-                                <span></span>
+                                <a href="./single-services.php">
+                                    <span></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -203,7 +213,9 @@
                                 Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
                             </div>
                             <div class="diamond-thumbnail__arrow">
-                                <span></span>
+                                <a href="./single-services.php">
+                                    <span></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -222,7 +234,9 @@
                                 Компания DIAMOND GROUP рада изготовить для вас объёмные рисунки, которыми можно украсить детскую комнату и придать ей особый антураж!
                             </div>
                             <div class="diamond-thumbnail__arrow">
-                                <span></span>
+                                <a href="./single-services.php">
+                                    <span></span>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -231,7 +245,7 @@
             </div>
 
             <div class="diamond-more">
-                <a href="#">все услуги<span></span></a>
+                <a href="./page-services.php">все услуги<span></span></a>
             </div>
         </div>
     </div>
@@ -254,11 +268,9 @@
                                 <div class="diamond-thumbnail__title">
                                     Стенд Shetelig
                                 </div>
-                                <a href="#">
-                                    <div class="diamond-thumbnail__arrow">
-                                        <span></span>
-                                    </div>
-                                </a>
+                                <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                    <span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -272,11 +284,9 @@
                                 <div class="diamond-thumbnail__title">
                                     Стенд ЯНАО
                                 </div>
-                                <a href="#">
-                                    <div class="diamond-thumbnail__arrow">
-                                        <span></span>
-                                    </div>
-                                </a>
+                                <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                    <span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -290,11 +300,9 @@
                                 <div class="diamond-thumbnail__title">
                                     Стенд Shetelig
                                 </div>
-                                <a href="#">
-                                    <div class="diamond-thumbnail__arrow">
-                                        <span></span>
-                                    </div>
-                                </a>
+                                <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                    <span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -308,11 +316,9 @@
                                 <div class="diamond-thumbnail__title">
                                     Стенд ЯНАО
                                 </div>
-                                <a href="#">
-                                    <div class="diamond-thumbnail__arrow">
-                                        <span></span>
-                                    </div>
-                                </a>
+                                <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                    <span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -320,17 +326,15 @@
                     <div class="portfolio__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/11.png" alt="#">
+                                <img src="./assets/img/stands/6.jpg" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
                                     Cтенд ЧЭТА
                                 </div>
-                                <a href="#">
-                                    <div class="diamond-thumbnail__arrow">
-                                        <span></span>
-                                    </div>
-                                </a>
+                                <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                    <span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -338,24 +342,22 @@
                     <div class="portfolio__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/12.png" alt="#">
+                                <img src="./assets/img/stands/7.jpg" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
                                     Стенд NMTC
                                 </div>
-                                <a href="#">
-                                    <div class="diamond-thumbnail__arrow">
-                                        <span></span>
-                                    </div>
-                                </a>
+                                <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                    <span></span>
+                                </div>
                             </div>
                         </div>
                     </div>
 
                 </div>
                 <div class="diamond-more">
-                    <a href="#">смотреть все проекты<span></span></a>
+                    <a href="./page-portfolio.php">смотреть все проекты<span></span></a>
                 </div>
             </div>
         </div>

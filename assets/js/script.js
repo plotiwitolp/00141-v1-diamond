@@ -133,7 +133,7 @@
     // end
 
     // start
-    $('.diamond-thumbnail__arrow').on('click', function () {
+    $('.diamond-thumbnail__arrow_prtfl').on('click', function () {
       let dataId = $(this).parents('.portfolio__item').attr('data-id');
       let srcImg1 = $(this).parents('.portfolio__item').find('.diamond-thumbnail__img img').attr('src');
       let srcImg2 = $(this).parents('.portfolio__item').next().find('.diamond-thumbnail__img img').attr('src');

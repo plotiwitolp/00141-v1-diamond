@@ -15,7 +15,224 @@
                 <div class="portfolio">
                     <div class="portfolio-inner">
 
-                        <div class="portfolio__item" data-id="id001">
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/10.png" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Стенд Shetelig
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/stands/5.png" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Стенд ЯНАО
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/stands/5.png" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Стенд Shetelig
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/10.png" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Стенд ЯНАО
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/stands/6.jpg" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Cтенд ЧЭТА
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/stands/7.jpg" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Стенд NMTC
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/10.png" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Стенд Shetelig
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/stands/5.png" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Стенд ЯНАО
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/stands/5.png" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Стенд Shetelig
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/10.png" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Стенд ЯНАО
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/stands/6.jpg" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Cтенд ЧЭТА
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="portfolio__item">
+                            <div class="diamond-thumbnail">
+                                <div class="diamond-thumbnail__img">
+                                    <img src="./assets/img/stands/7.jpg" alt="#">
+                                </div>
+                                <div class="diamond-thumbnail__body">
+                                    <div class="diamond-thumbnail__title">
+                                        Стенд NMTC
+                                    </div>
+                                    <a href="#">
+                                        <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                            <span></span>
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <div class="portfolio__item" data-id="id001">
                             <div class="diamond-thumbnail">
                                 <div class="diamond-thumbnail__img">
                                     <img src="./assets/img/7.png" alt="#">
@@ -183,9 +400,12 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
 
+                    </div>
+                    <div class="d-btn-more">
+                        Показать больше
                     </div>
                 </div>
             </div>
