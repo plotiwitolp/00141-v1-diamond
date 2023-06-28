@@ -2,7 +2,10 @@
 <?php require_once './header-second.php'; ?>
 <div class="page-inner">
     <div class="container">
-        <h1 class="page-title services_title">Наши услуги</h1>
+        <h1 class="page-title">
+            <span class="history-back"></span>
+            Наши услуги
+        </h1>
     </div>
 
     <section class="services-wrap">
@@ -22,11 +25,11 @@
                                 <div class="diamond-thumbnail__text">
                                     Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
                                 </div>
-                                <a href="./single-services.php">
-                                    <div class="diamond-thumbnail__arrow">
+                                <div class="diamond-thumbnail__arrow">
+                                    <a href="./single-services.php">
                                         <span></span>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -43,11 +46,11 @@
                                 <div class="diamond-thumbnail__text">
                                     Организация выставки под ключ позволит вам быть полностью уверенными в том, что все нюансы и особенности процесса полностью соблюдены
                                 </div>
-                                <a href="./single-services.php">
-                                    <div class="diamond-thumbnail__arrow">
+                                <div class="diamond-thumbnail__arrow">
+                                    <a href="./single-services.php">
                                         <span></span>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -66,11 +69,11 @@
                                 <div class="diamond-thumbnail__text">
                                     Мы поможем вам сэкономить средства. Предлагаем вашему вниманию аренду выставочных стендов и необходимого оборудования
                                 </div>
-                                <a href="./single-services.php">
-                                    <div class="diamond-thumbnail__arrow">
+                                <div class="diamond-thumbnail__arrow">
+                                    <a href="./single-services.php">
                                         <span></span>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -87,11 +90,11 @@
                                 <div class="diamond-thumbnail__text">
                                     Продуктивность проведения выставочной экспозиции зависит от слаженной работы персонала. Мы работаем с опытными специалистами, которые помогут вам произвести хорошее впечатление на всех гостей выставки
                                 </div>
-                                <a href="./single-services.php">
-                                    <div class="diamond-thumbnail__arrow">
+                                <div class="diamond-thumbnail__arrow">
+                                    <a href="./single-services.php">
                                         <span></span>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -108,11 +111,11 @@
                                 <div class="diamond-thumbnail__text">
                                     При желании организовать выставку, заказчики рассчитывают на полное цифровое оснащение данного события. Надёжное применение технологий на выставке осуществляет Diamond Group
                                 </div>
-                                <a href="./single-services.php">
-                                    <div class="diamond-thumbnail__arrow">
+                                <div class="diamond-thumbnail__arrow">
+                                    <a href="./single-services.php">
                                         <span></span>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -129,11 +132,11 @@
                                 <div class="diamond-thumbnail__text">
                                     Компания Diamond Group осуществляет застройку выставочных стендов. Мы воплотим ваши идеи и разработаем для конструкции удобный функционал
                                 </div>
-                                <a href="./single-services.php">
-                                    <div class="diamond-thumbnail__arrow">
+                                <div class="diamond-thumbnail__arrow">
+                                    <a href="./single-services.php">
                                         <span></span>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -150,11 +153,11 @@
                                 <div class="diamond-thumbnail__text">
                                     Компания DIAMOND GROUP рада изготовить для вас объёмные рисунки, которыми можно украсить детскую комнату и придать ей особый антураж!
                                 </div>
-                                <a href="./single-services.php">
-                                    <div class="diamond-thumbnail__arrow">
+                                <div class="diamond-thumbnail__arrow">
+                                    <a href="./single-services.php">
                                         <span></span>
-                                    </div>
-                                </a>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -184,6 +187,7 @@
                             </div>
                             <div class="feedback-form___bottom">
                                 <textarea placeholder="Сообщение"></textarea>
+                                <input type="file" name="fileInput" id="fileInput">
                                 <input class="diamond-btn" type="submit" value="Отправить">
                             </div>
 

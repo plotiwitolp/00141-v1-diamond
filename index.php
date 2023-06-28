@@ -98,7 +98,7 @@
                 <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
-                            <img src="./assets/img/2.png" alt="#">
+                            <img src="./assets/img/stands/1.png" alt="#">
                         </div>
                         <div class="diamond-thumbnail__body">
                             <div class="diamond-thumbnail__title">
@@ -136,7 +136,7 @@
                 <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
-                            <img src="./assets/img/4.png" alt="#">
+                            <img src="./assets/img/stands/2.png" alt="#">
                         </div>
                         <div class="diamond-thumbnail__body">
                             <div class="diamond-thumbnail__title">
@@ -155,7 +155,7 @@
                 <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
-                            <img src="./assets/img/5.png" alt="#">
+                            <img src="./assets/img/stands/3.png" alt="#">
                         </div>
                         <div class="diamond-thumbnail__body">
                             <div class="diamond-thumbnail__title">
@@ -174,7 +174,7 @@
                 <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
-                            <img src="./assets/img/6.png" alt="#">
+                            <img src="./assets/img/stands/4.png" alt="#">
                         </div>
                         <div class="diamond-thumbnail__body">
                             <div class="diamond-thumbnail__title">
@@ -193,7 +193,7 @@
                 <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
-                            <img src="./assets/img/2.png" alt="#">
+                            <img src="./assets/img/stands/1.png" alt="#">
                         </div>
                         <div class="diamond-thumbnail__body">
                             <div class="diamond-thumbnail__title">
@@ -212,7 +212,7 @@
                 <div class="services__item">
                     <div class="diamond-thumbnail">
                         <div class="diamond-thumbnail__img">
-                            <img src="./assets/img/2.png" alt="#">
+                            <img src="./assets/img/stands/1.png" alt="#">
                         </div>
                         <div class="diamond-thumbnail__body">
                             <div class="diamond-thumbnail__title">
@@ -248,7 +248,7 @@
                     <div class="portfolio__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/7.png" alt="#">
+                                <img src="./assets/img/10.png" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
@@ -266,7 +266,7 @@
                     <div class="portfolio__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/8.png" alt="#">
+                                <img src="./assets/img/stands/5.png" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
@@ -284,7 +284,7 @@
                     <div class="portfolio__item">
                         <div class="diamond-thumbnail">
                             <div class="diamond-thumbnail__img">
-                                <img src="./assets/img/9.png" alt="#">
+                                <img src="./assets/img/stands/5.png" alt="#">
                             </div>
                             <div class="diamond-thumbnail__body">
                                 <div class="diamond-thumbnail__title">
@@ -528,6 +528,7 @@
                         </div>
                         <div class="feedback-form___bottom">
                             <textarea placeholder="Сообщение"></textarea>
+                            <input type="file" name="fileInput" id="fileInput">
                             <input class="diamond-btn" type="submit" value="Отправить">
                         </div>
 

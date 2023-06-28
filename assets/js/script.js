@@ -18,6 +18,18 @@
         return;
       }
       // end close main menu
+
+      // start pop-up portfolio
+      if (targ.parents().hasClass('pop-up-portfolio__close') || targ.hasClass('pop-up-portfolio__close')) {
+        $('#pop-up-portfolio').remove();
+      }
+      // end pop-up portfolio
+
+      // start pop-up portfolio send
+      if (targ.parents().hasClass('pop-up-portfolio__send') || targ.hasClass('pop-up-portfolio__send')) {
+        $('#pop-up-portfolio').remove();
+      }
+      // end pop-up portfolio send
     });
 
     // start accordion
@@ -106,10 +118,79 @@
     // });
     // end popup services
 
+    // start
     $('.about-top-slider__inner').slick({
       fade: true,
       prevArrow: $('.about-slider__arrow-prev'),
       nextArrow: $('.about-slider__arrow-next'),
     });
+    // end
+
+    // start
+    $('.history-back').on('click', function () {
+      window.history.back();
+    });
+    // end
+
+    // start
+    $('.diamond-thumbnail__arrow').on('click', function () {
+      let dataId = $(this).parents('.portfolio__item').attr('data-id');
+      let srcImg1 = $(this).parents('.portfolio__item').find('.diamond-thumbnail__img img').attr('src');
+      let srcImg2 = $(this).parents('.portfolio__item').next().find('.diamond-thumbnail__img img').attr('src');
+      let text = $(this).parents('.portfolio__item').find('.diamond-thumbnail__title').text().trim();
+
+      $.ajax({
+        url: 'http://00141-catwebdev-roman5775-diamond/00141-v2-diamond/test-functions.php', // URL-адрес, к которому будет отправлен запрос
+        type: 'GET',
+        data: {
+          dataId: dataId,
+          srcImg1: srcImg1,
+          srcImg2: srcImg2,
+          text: text,
+        },
+        dataType: 'json',
+        success: function (response) {
+          function openPopUp() {
+            $('body').append('<div id="pop-up-portfolio"></div>');
+            $('#pop-up-portfolio').append('<div class="pop-up-portfolio__close"></div>');
+            $('#pop-up-portfolio').append('<div class="pop-up-portfolio__inner"></div>');
+            for (let i = 0; i < response.data.imgs.length; i++) {
+              $('.pop-up-portfolio__inner').append(`<div class="pop-up-portfolio__item">
+            <div class="pop-up-portfolio__img">
+            <img src=${response.data.imgs[i]}>
+            </div>
+            </div>`);
+            }
+            $('#pop-up-portfolio').append(`<div class="pop-up-portfolio__title">
+            <div class="pop-up-portfolio__prev"></div>
+            ${response.data.text}
+            <div class="pop-up-portfolio__next"></div>
+            <div class="pop-up-portfolio__send">
+            <a href="#feedback">
+            Подробнее
+            </a>
+            </div>
+            </div>`);
+
+            $('.pop-up-portfolio__inner').slick({
+              prevArrow: $('.pop-up-portfolio__prev'),
+              nextArrow: $('.pop-up-portfolio__next'),
+            });
+          }
+          openPopUp();
+        },
+        error: function (xhr, status, error) {
+          console.log('Ошибка AJAX запроса:', error);
+        },
+      });
+    });
+
+    // end
   });
+  // start remove mob menu
+  $(window).on('pageshow', function (event) {
+    $('.header-menu').removeClass('header-menu_active');
+    $('header').removeClass('header_white');
+  });
+  // end remove mob menu
 })(jQuery);

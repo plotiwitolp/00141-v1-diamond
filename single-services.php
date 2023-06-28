@@ -2,7 +2,10 @@
 <?php require_once './header-second.php'; ?>
 <div class="page-inner">
     <div class="container">
-        <h1 class="page-title services_title">Пример заголовка определенной услуги</h1>
+        <h1 class="page-title services_title">
+            <span class="history-back"></span>
+            Пример заголовка определенной услуги
+        </h1>
     </div>
 
     <div class="container">
@@ -75,6 +78,7 @@
                             </div>
                             <div class="feedback-form___bottom">
                                 <textarea placeholder="Сообщение"></textarea>
+                                <input type="file" name="fileInput" id="fileInput">
                                 <input class="diamond-btn" type="submit" value="Отправить">
                             </div>
 
