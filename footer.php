@@ -91,7 +91,7 @@
 
 
 
-
+<?php wp_footer(); ?>
 <script src="./assets/js/jquery-3.6.0.min.js"></script>
 <script src="./assets/libs/slick/slick.min.js"></script>
 <script src="./assets/js/script.js"></script>

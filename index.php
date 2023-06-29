@@ -1,5 +1,6 @@
 <?php $page = 'p1'; ?>
-<?php require_once './header-main.php'; ?>
+<?php get_header('main'); ?>
+
 
 <!-- Топ -->
 <section>
@@ -541,4 +542,4 @@
     </div>
 </section>
 
-<?php require_once './footer.php'; ?>
+<?php get_footer(); ?>

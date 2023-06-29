@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/libs/slick/slick.css">
     <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <?php wp_head(); ?>
 </head>
 
 <body>
