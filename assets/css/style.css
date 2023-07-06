@@ -262,7 +262,8 @@ header {
   top: calc(50% - 2px);
   left: -55px;
 }
-.header-menu__bottom .wp-menu .wp-menu__item_active::before {
+.header-menu__bottom .wp-menu .wp-menu__item_active::before,
+.header-menu__bottom .wp-menu .current-menu-item::before {
   background-color: #000;
   opacity: 1;
 }
@@ -2456,4 +2457,15 @@ input#fileInput {
   .portfolio__item .diamond-thumbnail__title {
     font-size: 18px;
   }
+}
+.diamond-thumbnail__img img {
+  -webkit-transition: -webkit-transform 0.25s ease;
+  transition: -webkit-transform 0.25s ease;
+  transition: transform 0.25s ease;
+  transition: transform 0.25s ease, -webkit-transform 0.25s ease;
+}
+
+.diamond-thumbnail__img:hover img {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
 }

@@ -1,6 +1,4 @@
-<?php $page = 'p1'; ?>
 <?php get_header('main'); ?>
-
 
 <!-- Топ -->
 <section>
@@ -84,61 +82,6 @@
                     <img src="./assets/img/1.png" alt="#">
                 </div>
             </div>
-
-            <div class="top-slider__item">
-                <div class="container">
-                    <div class="top-slider__item-inner">
-                        <div class="top-slider__item-title">
-                            <h1>Пример слайда 4</h1>
-                        </div>
-                        <div class="top-slider__item-desc">
-                            надежный результат в России и за рубежом слайд 4
-                        </div>
-                        <div class="top-slider__item-order">
-                            <div class="diamond-btn">
-                                <a href="#feedback">
-                                    Заказать обратный звонок
-                                </a>
-                            </div>
-                        </div>
-                        <div class="top-slider__item-quote diamond-quote">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugiat explicabo, enim similique aut voluptatibus quidem vitae harum distinctio consectetur cupiditate totam perspiciatis velit sunt. Id, voluptatem. Doloribus, dolorum alias?
-                        </div>
-                        <div class="top-slider__item-bright"></div>
-                    </div>
-                </div>
-                <div class="top-slider__item-img">
-                    <img src="./assets/img/1.png" alt="#">
-                </div>
-            </div>
-
-            <div class="top-slider__item">
-                <div class="container">
-                    <div class="top-slider__item-inner">
-                        <div class="top-slider__item-title">
-                            <h1>Пример слайда 5</h1>
-                        </div>
-                        <div class="top-slider__item-desc">
-                            надежный результат в России и за рубежом слайд 5
-                        </div>
-                        <div class="top-slider__item-order">
-                            <div class="diamond-btn">
-                                <a href="#feedback">
-                                    Заказать обратный звонок
-                                </a>
-                            </div>
-                        </div>
-                        <div class="top-slider__item-quote diamond-quote">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem fugiat explicabo, enim similique aut voluptatibus quidem vitae harum distinctio consectetur cupiditate totam perspiciatis velit sunt. Id, voluptatem. Doloribus, dolorum alias?
-                        </div>
-                        <div class="top-slider__item-bright"></div>
-                    </div>
-                </div>
-                <div class="top-slider__item-img">
-                    <img src="./assets/img/1.png" alt="#">
-                </div>
-            </div>
-
         </div>
     </div>
 </section>

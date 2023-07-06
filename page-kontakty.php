@@ -1,5 +1,5 @@
-<?php $page = 'p6'; ?>
-<?php require_once './header-second.php'; ?>
+<?php get_header('second'); ?>
+
 <div class="page-inner conacts-page">
     <div class="container">
         <h1 class="page-title">
@@ -74,4 +74,4 @@
 
 </div>
 
-<?php require_once './footer.php'; ?>
+<?php get_footer(); ?>

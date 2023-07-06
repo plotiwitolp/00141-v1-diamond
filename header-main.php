@@ -5,10 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diamond Group</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="./assets/libs/slick/slick.css">
-    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+    <title><?php bloginfo('name'); ?></title>
     <?php wp_head(); ?>
 </head>
 
@@ -19,17 +16,15 @@
         <div class="container">
             <div class="header">
                 <nav class="header__nav">
-
                     <!-- Logo -->
                     <div class="header__logo">
                         <a href="./">
-                            <img src="./assets/img/logo-white.svg" alt="logotype">
+                            <img src="<?php the_field('logo_top', 10) ?>" alt="logotype">
                         </a>
                     </div>
-
                     <!-- Menu -->
                     <div class="header__burger_open">
-                        <img src="./assets/img/meno.svg" alt="menu">
+                        <img src="<?php echo get_template_directory_uri() ?>/assets/img/meno.svg" alt="menu">
                     </div>
 
                     <div class="header-menu">
@@ -37,34 +32,29 @@
                             <div class="header-menu__top">
                                 <div class="header-menu__logo">
                                     <a href="./">
-                                        <img src="./assets/img/logo-white2.png" alt="logotype">
+                                        <img src="<?php the_field('logo_menu', 10) ?>" alt="logotype">
                                     </a>
                                 </div>
                                 <div class="header__burger_close">
-                                    <img src="./assets/img/meno-close.svg" alt="menu close">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/meno-close.svg" alt="menu close">
                                 </div>
                             </div>
 
                             <div class="header-menu__bottom">
+
                                 <div class="wp-menu">
-                                    <ul>
-                                        <li <?= $page == 'p1' ? 'class="wp-menu__item_active"' : '' ?>><a href="./">Главная</a></li>
-                                        <li <?= $page == 'p2' ? 'class="wp-menu__item_active"' : '' ?>><a href="./page-services.php">Услуги</a></li>
-                                        <li <?= $page == 'p3' ? 'class="wp-menu__item_active"' : '' ?>><a href="./page-portfolio.php">Портфолио</a></li>
-                                        <li <?= $page == 'p4' ? 'class="wp-menu__item_active"' : '' ?>><a href="./page-about.php">О компании</a></li>
-                                        <li <?= $page == 'p5' ? 'class="wp-menu__item_active"' : '' ?>><a href="./page-info.php">Информация</a></li>
-                                        <li <?= $page == 'p6' ? 'class="wp-menu__item_active"' : '' ?>><a href="./page-contacts.php">Контакты</a></li>
-                                    </ul>
+                                    <?php wp_nav_menu(['theme_location'  => 'primary',]); ?>
                                 </div>
+
                                 <div class="header-menu-contact">
                                     <div class="header-menu-contact__item">
-                                        <a href="tel:+74994992373">+7 (499) 499-23-73</a>
+                                        <a href="tel:<?php the_field('phone_call', 10) ?>"><?php the_field('phone_show', 10) ?></a>
                                     </div>
                                     <div class="header-menu-contact__item">
-                                        <a href="mailto:info@diamond-expo.ru">info@diamond-expo.ru</a>
+                                        <a href="mailto:<?php the_field('email', 10) ?>"><?php the_field('email', 10) ?></a>
                                     </div>
                                     <div class="header-menu-contact__item">
-                                        <span>ул. Свободы, 35, стр. 8, Москва</span>
+                                        <span><?php the_field('address', 10) ?></span>
                                     </div>
                                 </div>
                             </div>
@@ -74,7 +64,7 @@
 
                 <!-- Contacts -->
                 <div class="header__contact">
-                    <a href="tel:+74994992373">+7 (499) 499-23-73</a>
+                    <a href="tel:<?php the_field('phone_call', 10) ?>"><?php the_field('phone_show', 10) ?></a>
                 </div>
             </div>
         </div>

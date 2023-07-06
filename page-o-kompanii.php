@@ -1,5 +1,5 @@
-<?php $page = 'p4'; ?>
-<?php require_once './header-second.php'; ?>
+<?php get_header('second'); ?>
+
 <div class="page-inner">
     <div class="container">
         <h1 class="page-title">
@@ -391,4 +391,4 @@
     </section>
 </div>
 
-<?php require_once './footer.php'; ?>
+<?php get_footer(); ?>

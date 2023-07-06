@@ -1,5 +1,5 @@
-<?php $page = 'p5'; ?>
-<?php require_once './header-second.php'; ?>
+<?php get_header('second'); ?>
+
 <div class="page-inner information-page">
     <div class="container">
         <h1 class="page-title">
@@ -204,4 +204,4 @@
     </section>
 </div>
 
-<?php require_once './footer.php'; ?>
+<?php get_footer(); ?>
