@@ -10,7 +10,6 @@
 </head>
 
 <body>
-
     <!-- Header -->
     <header>
         <div class="container">
@@ -18,7 +17,7 @@
                 <nav class="header__nav">
                     <!-- Logo -->
                     <div class="header__logo">
-                        <a href="./">
+                        <a href="<?php echo esc_url(home_url('/')); ?>">
                             <img src="<?php the_field('logo_top', 10) ?>" alt="logotype">
                         </a>
                     </div>
@@ -26,12 +25,11 @@
                     <div class="header__burger_open">
                         <img src="<?php echo get_template_directory_uri() ?>/assets/img/meno.svg" alt="menu">
                     </div>
-
                     <div class="header-menu">
                         <div class="header-menu__inner">
                             <div class="header-menu__top">
                                 <div class="header-menu__logo">
-                                    <a href="./">
+                                    <a href="<?php echo esc_url(home_url('/')); ?>">
                                         <img src="<?php the_field('logo_menu', 10) ?>" alt="logotype">
                                     </a>
                                 </div>
@@ -39,13 +37,10 @@
                                     <img src="<?php echo get_template_directory_uri() ?>/assets/img/meno-close.svg" alt="menu close">
                                 </div>
                             </div>
-
                             <div class="header-menu__bottom">
-
                                 <div class="wp-menu">
                                     <?php wp_nav_menu(['theme_location'  => 'primary',]); ?>
                                 </div>
-
                                 <div class="header-menu-contact">
                                     <div class="header-menu-contact__item">
                                         <a href="tel:<?php the_field('phone_call', 10) ?>"><?php the_field('phone_show', 10) ?></a>
@@ -61,7 +56,6 @@
                         </div>
                     </div>
                 </nav>
-
                 <!-- Contacts -->
                 <div class="header__contact">
                     <a href="tel:<?php the_field('phone_call', 10) ?>"><?php the_field('phone_show', 10) ?></a>
@@ -69,6 +63,5 @@
             </div>
         </div>
     </header>
-
     <!-- Main -->
     <main id="top">

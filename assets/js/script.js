@@ -40,29 +40,29 @@
     // end accordion
 
     // start top slider
-    $('.top-slider__inner').slick({
-      dots: true,
-      arrows: false,
-      // autoplay: true,
-      fade: true,
-      cssEase: 'linear',
-      autoplaySpeed: 3500,
-      speed: 500,
-      responsive: [
-        {
-          breakpoint: 2000,
-          settings: {
-            autoplay: true,
-          },
-        },
-        {
-          breakpoint: 600,
-          settings: {
-            autoplay: false,
-          },
-        },
-      ],
-    });
+    // $('.top-slider__inner').slick({
+    //   dots: true,
+    //   arrows: false,
+    //   // autoplay: true,
+    //   fade: true,
+    //   cssEase: 'linear',
+    //   autoplaySpeed: 3500,
+    //   speed: 500,
+    //   responsive: [
+    //     {
+    //       breakpoint: 2000,
+    //       settings: {
+    //         autoplay: true,
+    //       },
+    //     },
+    //     {
+    //       breakpoint: 600,
+    //       settings: {
+    //         autoplay: false,
+    //       },
+    //     },
+    //   ],
+    // });
     // end top slider
 
     // start our clients slider
@@ -108,15 +108,6 @@
       ],
     });
     // end  reviews slider
-
-    // start popup services
-    // $('.services-wrap .diamond-thumbnail__arrow').on('click', function () {
-    //   $('.outer-popup-services').addClass('popup-services_active');
-    // });
-    // $('.popup-services__close').on('click', function () {
-    //   $('.outer-popup-services').removeClass('popup-services_active');
-    // });
-    // end popup services
 
     // start
     $('.about-top-slider__inner').slick({
@@ -172,26 +163,41 @@
         });
       }
       openPopUp();
-
-      // $.ajax({
-      //   url: 'http://00141-catwebdev-roman5775-diamond/00141-v2-diamond/test-functions.php', // URL-адрес, к которому будет отправлен запрос
-      //   type: 'GET',
-      //   data: {
-      //     dataId: dataId,
-      //     srcImg1: srcImg1,
-      //     srcImg2: srcImg2,
-      //     text: text,
-      //   },
-      //   dataType: 'json',
-      //   success: function (response) {
-      //   },
-      //   error: function (xhr, status, error) {
-      //     console.log('Ошибка AJAX запроса:', error);
-      //   },
-      // });
     });
 
+    // start top slider swiper
+    const swiper = new Swiper('.swiper', {
+      loop: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      on: {
+        slideChange: function () {
+          const slides = this.slides;
+          removeAnimations(slides);
+          for (let i = 0; i < slides.length; i++) {
+            slides[i].classList.add(`animation-${((this.realIndex + i) % 5) + 1}`);
+          }
+        },
+      },
+    });
+
+    function removeAnimations(slides) {
+      for (let i = 0; i < slides.length; i++) {
+        for (let j = 1; j <= 5; j++) {
+          slides[i].classList.remove(`animation-${j}`);
+        }
+      }
+    }
+    // end top slider swiper
+
+    // start faq
+
+    // end faq
+    $('.diamond-accordion__item:first-child').find('.diamond-accordion__item-text').addClass('diamond-accordion__item-text_active');
     // end
+    // ===============================
   });
   // start remove mob menu
   $(window).on('pageshow', function (event) {

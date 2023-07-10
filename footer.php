@@ -5,7 +5,7 @@
     <div class="container">
         <div class="footer-top">
             <div class="footer__logo">
-                <img src="./assets/img/logo-footer.svg" alt="#">
+                <img src="<?php the_field('logo_footer', 10) ?>" alt="logo-footer">
             </div>
         </div>
         <div class="footer-bottom">
@@ -14,7 +14,7 @@
                     <div class="footer-contact__item">
                         <a href="tel:+74994992373">
                             <span class="footer-contact__item-icon">
-                                <img src="./assets/img/phone-3.png" alt="phone-3">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/phone-3.png" alt="phone-3">
                             </span>
                             <span>+7 (499) 499-23-73</span>
                         </a>
@@ -22,21 +22,21 @@
                     <div class="footer-contact__item">
                         <a href="mailto:info@diamond-expo.ru">
                             <span class="footer-contact__item-icon">
-                                <img src="./assets/img/mail.png" alt="mail">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/mail.png" alt="mail">
                             </span>
                             <span>info@diamond-expo.ru</span>
                         </a>
                     </div>
                     <div class="footer-contact__item">
                         <span class="footer-contact__item-icon">
-                            <img src="./assets/img/location.svg" alt="location">
+                            <img src="<?php echo get_template_directory_uri() ?>/assets/img/location.svg" alt="location">
                         </span>
                         <span>ул. Свободы, 35, стр. 8, Москва</span>
                     </div>
                     <div class="footer-contact__item">
                         <a href="#">
                             <span class="footer-contact__item-icon">
-                                <img src="./assets/img/vkontakte_icon-icons.com_61245 1.png" alt="vkontakte_icon">
+                                <img src="<?php echo get_template_directory_uri() ?>/assets/img/vkontakte_icon-icons.com_61245 1.png" alt="vkontakte_icon">
                             </span>
                             <span>ВКонтакте</span>
                         </a>

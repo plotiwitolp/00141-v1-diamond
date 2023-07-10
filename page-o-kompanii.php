@@ -17,32 +17,11 @@
                             <span></span>
                         </div>
                         <div class="about-top-slider__inner">
-                            <div class="about-top-slider__item">
-                                <div class="about-top-slider__item-img">
-                                    <img src="./assets/img/team-1.png" alt="team">
-                                </div>
-                                <div class="about-top-slider__item-title">
-                                    Наша команда
-                                </div>
-                            </div>
-
-                            <div class="about-top-slider__item">
-                                <div class="about-top-slider__item-img">
-                                    <img src="./assets/img/team-1.png" alt="team">
-                                </div>
-                                <div class="about-top-slider__item-title">
-                                    Наша команда слайд 2
-                                </div>
-                            </div>
-
-                            <div class="about-top-slider__item">
-                                <div class="about-top-slider__item-img">
-                                    <img src="./assets/img/team-1.png" alt="team">
-                                </div>
-                                <div class="about-top-slider__item-title">
-                                    Наша команда слайд 3
-                                </div>
-                            </div>
+                            <?php
+                            $content = get_field('pictures_for_slide');
+                            $filtered_content = display_images_and_alt($content);
+                            echo $filtered_content;
+                            ?>
                         </div>
                         <div class="about-slider__arrow-next">
                             <span></span>
@@ -71,7 +50,7 @@
                         <div class="about-third__item">
                             <div class="about-third__item__inner">
                                 <div class="about-third__item-pic">
-                                    <img src="./assets/img/pic1.png" alt="pic1">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/pic1.png" alt="pic1">
                                 </div>
                                 <div class="about-third__item-desc">
                                     <div class="about-third__item-desc-title">
@@ -87,7 +66,7 @@
                         <div class="about-third__item">
                             <div class="about-third__item__inner">
                                 <div class="about-third__item-pic">
-                                    <img src="./assets/img/pic2.png" alt="pic2">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/pic2.png" alt="pic2">
                                 </div>
                                 <div class="about-third__item-desc">
                                     <div class="about-third__item-desc-title">
@@ -103,7 +82,7 @@
                         <div class="about-third__item">
                             <div class="about-third__item__inner">
                                 <div class="about-third__item-pic">
-                                    <img src="./assets/img/pic3.png" alt="pic3">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/pic3.png" alt="pic3">
                                 </div>
                                 <div class="about-third__item-desc">
                                     <div class="about-third__item-desc-title">
@@ -119,7 +98,7 @@
                         <div class="about-third__item">
                             <div class="about-third__item__inner">
                                 <div class="about-third__item-pic">
-                                    <img src="./assets/img/pic4.png" alt="pic4">
+                                    <img src="<?php echo get_template_directory_uri() ?>/assets/img/pic4.png" alt="pic4">
                                 </div>
                                 <div class="about-third__item-desc">
                                     <div class="about-third__item-desc-title">
@@ -140,7 +119,7 @@
 
     <div class="about-stat">
         <div class="about-stat__img">
-            <img src="./assets/img/about-stat.png" alt="about-stat">
+            <img src="<?php echo get_template_directory_uri() ?>/assets/img/about-stat.png" alt="about-stat">
         </div>
         <div class="about-stat__body">
             <div class="container">

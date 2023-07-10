@@ -389,7 +389,8 @@ header {
   z-index: -1;
 }
 
-.slick-dots {
+.slick-dots,
+.top-slider .swiper-pagination {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -400,24 +401,170 @@ header {
   position: relative;
   bottom: 69px;
 }
-.slick-dots li {
+.slick-dots li,
+.slick-dots span,
+.top-slider .swiper-pagination li,
+.top-slider .swiper-pagination span {
   background: #4f4f4f;
   width: 52px;
   height: 3px;
   margin-right: 20px;
   cursor: pointer;
+  border-radius: 0;
 }
-.slick-dots li button {
-  display: none;
-}
-.slick-dots li:last-child {
+.slick-dots li:last-child,
+.slick-dots span:last-child,
+.top-slider .swiper-pagination li:last-child,
+.top-slider .swiper-pagination span:last-child {
   margin-right: 0;
 }
-.slick-dots li.slick-active {
+.slick-dots li.slick-active,
+.slick-dots span.swiper-pagination-bullet-active,
+.top-slider .swiper-pagination li.slick-active,
+.top-slider .swiper-pagination span.swiper-pagination-bullet-active {
   width: 60px;
   height: 5px;
 }
 
+.animation-1 {
+  opacity: 0;
+  -webkit-animation: fade-in 1s ease-in forwards;
+          animation: fade-in 1s ease-in forwards;
+}
+
+@-webkit-keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.animation-2 {
+  -webkit-animation: slideDownAnimation 0.8s ease-in-out forwards;
+          animation: slideDownAnimation 0.8s ease-in-out forwards;
+}
+
+@-webkit-keyframes slideDownAnimation {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideDownAnimation {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animation-3 {
+  -webkit-transform: scale(0);
+          transform: scale(0);
+  -webkit-animation: scale-up 0.8s ease-in forwards;
+          animation: scale-up 0.8s ease-in forwards;
+}
+
+@-webkit-keyframes scale-up {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+
+@keyframes scale-up {
+  from {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+  }
+  to {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+.animation-4 {
+  -webkit-animation: slideUpAnimation 0.8s ease-in-out forwards;
+          animation: slideUpAnimation 0.8s ease-in-out forwards;
+}
+
+@-webkit-keyframes slideUpAnimation {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideUpAnimation {
+  0% {
+    -webkit-transform: translateY(100%);
+            transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+.animation-5 {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-animation: scaleOut 0.8s ease-in-out forwards;
+          animation: scaleOut 0.8s ease-in-out forwards;
+}
+
+@-webkit-keyframes scaleOut {
+  0%, 100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
+
+@keyframes scaleOut {
+  0%, 100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(0.7);
+            transform: scale(0.7);
+  }
+}
 .diamond-quote {
   position: relative;
 }
@@ -784,14 +931,18 @@ footer .diamond-quote::before {
 
 .client-slider__inner {
   max-width: 890px;
+  width: 100%;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 35px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.client-slider__inner .slick-slide img {
+  margin: auto;
 }
 
 .client-slider__arrow-prev span::before,

@@ -15,8 +15,46 @@
                 <div class="portfolio">
                     <div class="portfolio-inner">
 
+                        <?php
+                        $args = array(
+                            'post_type' => 'portfolio',
+                            'posts_per_page' => get_field('number_of_portfolio')
+                        );
+                        $query = new WP_Query($args);
+                        if ($query->have_posts()) {
+                            $images = array();
+                            while ($query->have_posts()) {
+                                $query->the_post();
+                        ?>
+                                <div class="portfolio__item">
+                                    <div class="diamond-thumbnail">
+                                        <div class="diamond-thumbnail__img">
+                                            <?php
+                                            $content = get_the_content();
+                                            $filtered_content = display_images_with_alt($content);
+                                            echo $filtered_content;
+                                            ?>
+                                        </div>
+                                        <div class="diamond-thumbnail__body">
+                                            <div class="diamond-thumbnail__title">
+                                                <?php the_title(); ?>
+                                            </div>
+                                            <div class="diamond-thumbnail__arrow diamond-thumbnail__arrow_prtfl">
+                                                <span></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                        <?php
+                            }
+                            wp_reset_postdata();
+                        } else {
+                            echo '';
+                        }
+                        ?>
 
-                        <div class="portfolio__item">
+
+                        <!-- <div class="portfolio__item">
                             <div class="diamond-thumbnail">
                                 <div class="diamond-thumbnail__img">
                                     <img src="./assets/img/10.png" alt="#">
@@ -230,7 +268,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
 
                     </div>
                     <div class="d-btn-more">
