@@ -8,13 +8,11 @@
         </h1>
     </div>
 
-    <section>
-        <div class="container">
-            <div class="block">
-                <?php the_content(); ?>
-            </div>
+    <div class="container">
+        <div class="block">
+            <?php the_content(); ?>
         </div>
-    </section>
+    </div>
 
     <!-- ФОС - Хотите заказать себе? -->
     <?php echo get_template_part('/templates/feedback-block'); ?>

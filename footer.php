@@ -12,29 +12,29 @@
             <div class="footer__item">
                 <div class="footer-contact">
                     <div class="footer-contact__item">
-                        <a href="tel:+74994992373">
+                        <a href="tel:<?php the_field('phone_call', 39) ?>">
                             <span class="footer-contact__item-icon">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/phone-3.png" alt="phone-3">
                             </span>
-                            <span>+7 (499) 499-23-73</span>
+                            <span><?php the_field('phone_show', 39) ?></span>
                         </a>
                     </div>
                     <div class="footer-contact__item">
-                        <a href="mailto:info@diamond-expo.ru">
+                        <a href="mailto:<?php the_field('email', 39) ?>">
                             <span class="footer-contact__item-icon">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/mail.png" alt="mail">
                             </span>
-                            <span>info@diamond-expo.ru</span>
+                            <span><?php the_field('email', 39) ?></span>
                         </a>
                     </div>
                     <div class="footer-contact__item">
                         <span class="footer-contact__item-icon">
                             <img src="<?php echo get_template_directory_uri() ?>/assets/img/location.svg" alt="location">
                         </span>
-                        <span>ул. Свободы, 35, стр. 8, Москва</span>
+                        <span><?php the_field('address', 39) ?></span>
                     </div>
                     <div class="footer-contact__item">
-                        <a href="#">
+                        <a href="<?php the_field('vk', 39) ?>">
                             <span class="footer-contact__item-icon">
                                 <img src="<?php echo get_template_directory_uri() ?>/assets/img/vkontakte_icon-icons.com_61245 1.png" alt="vkontakte_icon">
                             </span>
@@ -45,21 +45,14 @@
             </div>
             <div class="footer__item">
                 <div class="wp-menu">
-                    <ul>
-                        <li><a href="./">Главная</a></li>
-                        <li><a href="./page-services.php">Услуги</a></li>
-                        <li><a href="./page-portfolio.php">Портфолио</a></li>
-                        <li><a href="./page-about.php">О компании</a></li>
-                        <li><a href="./page-info.php">Информация</a></li>
-                        <li><a href="./page-contacts.php">Контакты</a></li>
-                    </ul>
+                    <?php wp_nav_menu(['theme_location'  => 'primary',]); ?>
                 </div>
             </div>
             <div class="footer__item">
                 <div class="diamond-quote-slider">
                     <div class="diamond-quote-slider__item">
                         <div class="diamond-quote">
-                            Компания Даймонд Групп – это опытный застройщик выставочных стендов, как в Москве, так и за ее пределами. Мы предоставляем полный перечень услуг по подготовке к выставочным мероприятиям и обеспечению работы экспозиции
+                            <?php the_field('text_citate', 10) ?>
                         </div>
                         <a href="#top">
                             <div class="diamond-quote__arrow"><span></span></div>
@@ -71,25 +64,11 @@
     </div>
 </footer>
 
-<!-- <div class="outer-popup-services">
-    <div class="popup-services">
-        <div class="container">
-            <div class="popup-services__inner">
-                <div class="popup-services__close">
-                    <img src="./assets/img/popup-services__close.png" alt="popup-services__close">
-                </div>
-                <div class="popup-services__body">
-                  
-                </div>
-            </div>
-        </div>
-    </div>
-</div> -->
-
+<div style="display: none;" class="admin-ajax-url"> <?php echo admin_url('admin-ajax.php'); ?></div>
+<div style="display: none;" class="post-per-page-portfolio"> <?php echo get_field('number_of_portfolio', 33); ?></div>
+<div style="display: none;" class="post-per-page-info"> <?php echo get_field('number_of_posts', 37); ?></div>
 <?php wp_footer(); ?>
-<!-- <script src="./assets/js/jquery-3.6.0.min.js"></script>
-<script src="./assets/libs/slick/slick.min.js"></script>
-<script src="./assets/js/script.js"></script> -->
+
 </body>
 
 </html>

@@ -43,13 +43,13 @@
                                 </div>
                                 <div class="header-menu-contact">
                                     <div class="header-menu-contact__item">
-                                        <a href="tel:<?php the_field('phone_call', 10) ?>"><?php the_field('phone_show', 10) ?></a>
+                                        <a href="tel:<?php the_field('phone_call', 39) ?>"><?php the_field('phone_show', 39) ?></a>
                                     </div>
                                     <div class="header-menu-contact__item">
-                                        <a href="mailto:<?php the_field('email', 10) ?>"><?php the_field('email', 10) ?></a>
+                                        <a href="mailto:<?php the_field('email', 39) ?>"><?php the_field('email', 39) ?></a>
                                     </div>
                                     <div class="header-menu-contact__item">
-                                        <span><?php the_field('address', 10) ?></span>
+                                        <span><?php the_field('address', 39) ?></span>
                                     </div>
                                 </div>
                             </div>
@@ -58,7 +58,7 @@
                 </nav>
                 <!-- Contacts -->
                 <div class="header__contact">
-                    <a href="tel:<?php the_field('phone_call', 10) ?>"><?php the_field('phone_show', 10) ?></a>
+                    <a href="tel:<?php the_field('phone_call', 39) ?>"><?php the_field('phone_show', 39) ?></a>
                 </div>
             </div>
         </div>

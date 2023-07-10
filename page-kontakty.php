@@ -17,50 +17,36 @@
 
                     <div class="contacts-wrapper">
                         <div class="feedback-form">
-                            <form action="">
-
-                                <div class="feedback-form___top">
-                                    <input type="text" placeholder="Ваше имя">
-                                    <input type="text" placeholder="Ваш телефон">
-                                    <input type="text" placeholder="Ваша компания">
-                                </div>
-                                <div class="feedback-form___bottom">
-                                    <textarea placeholder="Сообщение"></textarea>
-                                    <input type="file" name="fileInput" id="fileInput">
-                                    <input class="diamond-btn" type="submit" value="Отправить">
-                                </div>
-
-                            </form>
+                            <?php echo get_template_part('/templates/feedback-form-block'); ?>
                         </div>
-
 
                         <div class="footer-contact">
                             <div class="footer-contact__item">
-                                <a href="tel:+74994992373">
+                                <a href="tel:<?php the_field('phone_call', 39) ?>">
                                     <span class="footer-contact__item-icon">
-                                        <img src="./assets/img/contacts/phone.png" alt="phone">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/contacts/phone.png" alt="phone">
                                     </span>
-                                    <span>+7 (499) 499-23-73</span>
+                                    <span><?php the_field('phone_show', 39) ?></span>
                                 </a>
                             </div>
                             <div class="footer-contact__item">
-                                <a href="mailto:info@diamond-expo.ru">
+                                <a href="mailto:<?php the_field('email', 39) ?>">
                                     <span class="footer-contact__item-icon">
-                                        <img src="./assets/img/contacts/envelope-alt.png" alt="mail">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/contacts/envelope-alt.png" alt="mail">
                                     </span>
-                                    <span>info@diamond-expo.ru</span>
+                                    <span><?php the_field('email', 39) ?></span>
                                 </a>
                             </div>
                             <div class="footer-contact__item">
                                 <span class="footer-contact__item-icon">
-                                    <img src="./assets/img/contacts/location.png" alt="location">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/img/contacts/location.png" alt="location">
                                 </span>
-                                <span>ул. Свободы, 35, стр. 8, Москва</span>
+                                <span><?php the_field('address', 39) ?></span>
                             </div>
                             <div class="footer-contact__item">
-                                <a href="#">
+                                <a href="<?php the_field('vk', 39) ?>">
                                     <span class="footer-contact__item-icon">
-                                        <img src="./assets/img/contacts/vkontakte_icon-icons.com_61245 1.png" alt="vkontakte_icon">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/img/contacts/vkontakte_icon-icons.com_61245 1.png" alt="vkontakte_icon">
                                     </span>
                                     <span>ВКонтакте</span>
                                 </a>

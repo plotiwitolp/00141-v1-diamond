@@ -202,122 +202,13 @@
     </div>
 </section>
 
-
 <!-- Наши клиенты -->
-<section>
-    <div class="container">
-        <div class="block">
-            <h1>Наши клиенты</h1>
-            <div class="client-slider">
-                <div class="client-slider__arrow-prev">
-                    <span></span>
-                </div>
-                <div class="client-slider__inner">
-                    <?php
-                    $args = array(
-                        'post_type' => 'clients',
-                    );
-                    $query = new WP_Query($args);
-                    if ($query->have_posts()) {
-                        $images = array();
-                        while ($query->have_posts()) {
-                            $query->the_post();
-                    ?>
-                            <div class="client-slide__item">
-                                <img src="<?php the_field('client_picture') ?>" alt="client">
-                            </div>
-                    <?php
-                        }
-                        wp_reset_postdata();
-                    } else {
-                        echo '';
-                    }
-                    ?>
-                </div>
-                <div class="client-slider__arrow-next">
-                    <span></span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php echo get_template_part('/templates/clients-block'); ?>
 
 <!-- Отзывы -->
-<section>
-    <div class="container">
-        <div class="block">
-            <h1>Отзывы</h1>
-
-            <div class="reviews-slider">
-                <div class="reviews-slider__arrow-prev">
-                    <span></span>
-                </div>
-                <div class="reviews-slider__inner">
-                    <?php
-                    $args = array(
-                        'post_type' => 'reviews',
-                    );
-                    $query = new WP_Query($args);
-                    if ($query->have_posts()) {
-                        $images = array();
-                        while ($query->have_posts()) {
-                            $query->the_post();
-                    ?>
-                            <div class="reviews-slider__item">
-                                <div class="reviews-slider__item__inner">
-                                    <div class="reviews-slider__item-img-first">
-                                        <img src="<?php the_field('picture_left') ?>" alt="review 1">
-                                    </div>
-                                    <div class="reviews-slider__item-img-second">
-                                        <img src="<?php the_field('picture_right') ?>" alt="review 2">
-                                    </div>
-                                </div>
-                            </div>
-                    <?php
-                        }
-                        wp_reset_postdata();
-                    } else {
-                        echo '';
-                    }
-                    ?>
-                </div>
-                <div class="reviews-slider__arrow-next">
-                    <span></span>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</section>
+<?php echo get_template_part('/templates/reviews-block'); ?>
 
 <!-- ФОС - Хотите заказать себе? -->
-<section>
-    <div class="feedback" id="feedback">
-        <div class="container">
-            <div class="block">
-                <h1>Хотите заказать себе?</h1>
-                <div class="feedback-form">
-                    <div class="feedback-form__info">
-                        Оставь свою заявку прямо сейчас:
-                    </div>
-                    <form action="">
-
-                        <div class="feedback-form___top">
-                            <input type="text" placeholder="Ваше имя">
-                            <input type="text" placeholder="Ваш телефон">
-                            <input type="text" placeholder="Ваша компания">
-                        </div>
-                        <div class="feedback-form___bottom">
-                            <textarea placeholder="Сообщение"></textarea>
-                            <input type="file" name="fileInput" id="fileInput">
-                            <input class="diamond-btn" type="submit" value="Отправить">
-                        </div>
-
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+<?php echo get_template_part('/templates/feedback-block'); ?>
 
 <?php get_footer(); ?>

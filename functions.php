@@ -151,7 +151,7 @@ function display_images_and_alt($content)
             $image_src = isset($src_match[1]) ? $src_match[1] : '';
             $image_alt = isset($alt_match[1]) ? $alt_match[1] : '';
 
-            $output .= '<div class="about-top-slider__item"><div class=about-top-slider__item-img"><img src="' . $image_src . '" alt="' . $image_alt . '"></div>';
+            $output .= '<div class="about-top-slider__item"><div class="about-top-slider__item-img"><img src="' . $image_src . '" alt="' . $image_alt . '"></div>';
             $output .= '<div class="about-top-slider__item-title">' . $image_alt . '</div></div>';
         }
         return $output;
@@ -288,3 +288,83 @@ function create_reviews_post_type()
 }
 add_action('init', 'create_reviews_post_type');
 // end reviews
+
+// start infoposts
+function create_infoposts_post_type()
+{
+    register_post_type(
+        'infoposts',
+        array(
+            'public' => true,
+            'has_archive' => true,
+            'menu_icon' => 'dashicons-admin-post',
+            'labels' => array(
+                'name' => __('Посты раздела "Информация"'),
+                'singular_name' => __('Статья'),
+                'add_new' => __('Добавить новую статью'),
+                'add_new_item' => __('Добавить новую статью'),
+                'edit_item' =>  __('Редактировать статью'),
+                'update_item' =>  __('Статья обновлена'),
+                'not_found' =>  __('Статья по заданным критериям не найдена'),
+                'search_items' => __('Искать статью'),
+            ),
+            'supports' => array('title', 'editor', 'thumbnail'),
+            'rewrite' => array('slug' => 'infoposts'),
+            'menu_position' => 5,
+        )
+    );
+}
+add_action('init', 'create_infoposts_post_type');
+// end infoposts
+
+// start infoposts more
+function load_more_posts()
+{
+    $page = $_POST['page'];
+    $args = array(
+        'post_type' => 'infoposts',
+        'posts_per_page' => get_field('number_of_posts', 37),
+        'paged' => $page
+    );
+    $query = new WP_Query($args);
+    if ($query->have_posts()) {
+        while ($query->have_posts()) {
+            $query->the_post();
+
+            echo get_template_part('/templates/information-item-block');
+        }
+        wp_reset_postdata();
+    } else {
+        echo '';
+    }
+    wp_die();
+}
+add_action('wp_ajax_load_more_posts', 'load_more_posts');
+add_action('wp_ajax_nopriv_load_more_posts', 'load_more_posts');
+// end infoposts more
+
+// start portfolio more
+function load_more_portfolio()
+{
+    $page = $_POST['page'];
+    $args = array(
+        'post_type' => 'portfolio',
+        'posts_per_page' => get_field('number_of_portfolio', 33),
+        'paged' => $page
+    );
+    $query = new WP_Query($args);
+    if ($query->have_posts()) {
+        while ($query->have_posts()) {
+            $query->the_post();
+
+            echo get_template_part('/templates/portfolio-item-block');
+        }
+        wp_reset_postdata();
+    } else {
+        echo '';
+    }
+    wp_die();
+}
+add_action('wp_ajax_load_more_portfolio', 'load_more_portfolio');
+add_action('wp_ajax_nopriv_load_more_portfolio', 'load_more_portfolio');
+// end infoposts more
